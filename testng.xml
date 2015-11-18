@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<suite name="Suite" parallel="false">
+	<test name="DataProviderTest">
+		<classes>
+			<!-- 最长重复子串 -->
+			<class name="leetCode.LengthOfLongestSubstringTest" />
+		</classes>
+	</test>
+</suite>
