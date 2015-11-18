@@ -9,6 +9,7 @@ public class Test3 {
          int count=0;
          for(int i=101;i<200;i++){
         	   boolean b= true;
+        	   //求质数，只需除到它的平方根
                for(int j=2;j<=Math.sqrt(i);j++){
             	  if(i%j==0){
             	  b =false;
