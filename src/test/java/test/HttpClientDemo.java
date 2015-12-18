@@ -1,16 +1,15 @@
 package test;
 
+import java.io.IOException;
+
 import org.apache.http.Header;
 import org.apache.http.HttpEntity;
 import org.apache.http.client.ClientProtocolException;
-import org.apache.http.client.HttpClient;
 import org.apache.http.client.methods.CloseableHttpResponse;
 import org.apache.http.client.methods.HttpGet;
 import org.apache.http.impl.client.CloseableHttpClient;
 import org.apache.http.impl.client.HttpClients;
 import org.apache.http.util.EntityUtils;
-
-import java.io.*;
 
 public class HttpClientDemo
 {
@@ -21,10 +20,11 @@ public class HttpClientDemo
 		// 创建Get请求实例
 		HttpGet httpget = new HttpGet("http://www.zhihu.com");
 		System.out.println("executing request " + httpget.getURI());
+		CloseableHttpResponse response1 = null;
 		try
 		{
 			// 客户端执行get请求,返回响应实体
-			CloseableHttpResponse response1 = httpclient.execute(httpget);
+			response1 = httpclient.execute(httpget);
 			// 服务器响应状态行
 			System.out.println(response1.getStatusLine());
 			Header[] heads = response1.getAllHeaders();
