@@ -35,7 +35,7 @@ public static void main(String[] args) throws IOException,ClientProtocolExceptio
 	//处理请求,得到相应
 	HttpResponse response = httpclient.execute(httppost);
 	//打印cookie信息
-	String set_cookie = response.getFirstHeader("set_cookie").getValue();
+	String set_cookie = response.getFirstHeader("Set-Cookie").getValue();
 	//打印返回结果
 	HttpEntity entity = response.getEntity();
 	StringBuilder result = new StringBuilder();
