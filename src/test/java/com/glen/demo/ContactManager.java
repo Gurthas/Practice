@@ -3,14 +3,13 @@ package com.glen.demo;
 import java.io.File;
 import java.net.URL;
 import java.util.List;
-
-import org.junit.Test;
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.remote.CapabilityType;
 import org.openqa.selenium.remote.DesiredCapabilities;
 import org.testng.annotations.AfterMethod;
 import org.testng.annotations.BeforeMethod;
+import org.testng.annotations.Test;
 
 import io.appium.java_client.android.AndroidDriver;
 
@@ -27,10 +26,10 @@ public class ContactManager
 	        DesiredCapabilities capabilities = new DesiredCapabilities();
 	        capabilities.setCapability(CapabilityType.BROWSER_NAME, "");
 	        capabilities.setCapability("platformName", "Android");
-	        capabilities.setCapability("deviceName","Android Emulator");
-	        capabilities.setCapability("platformVersion", "4.4");
+	        capabilities.setCapability("deviceName","192.168.56.101:5555");
+	        capabilities.setCapability("platformVersion", "4.4.4");
 	        capabilities.setCapability("app", app.getAbsolutePath());
-	        capabilities.setCapability("appPackage", "com.example.android.contactmanager");
+	        capabilities.setCapability("appPackage", "com.glen.demo");
 	        capabilities.setCapability("appActivity", ".ContactManager");
 	        driver = new AndroidDriver(new URL("http://127.0.0.1:4723/wd/hub"), capabilities);
 	    }
