@@ -29,15 +29,12 @@ public class ContactManager
 	        capabilities.setCapability("deviceName","192.168.56.101:5555");
 	        capabilities.setCapability("platformVersion", "4.4.4");
 	        capabilities.setCapability("app", app.getAbsolutePath());
-	        capabilities.setCapability("appPackage", "com.glen.demo");
+	        capabilities.setCapability("appPackage", "com.example.android.contactmanager");
 	        capabilities.setCapability("appActivity", ".ContactManager");
 	        driver = new AndroidDriver(new URL("http://127.0.0.1:4723/wd/hub"), capabilities);
 	    }
 	 
-	    @AfterMethod(alwaysRun=true)
-	    public void tearDown() throws Exception {
-	        driver.quit();
-	    }
+	   
 	 
 	    @Test(groups={"addContact"})
 	    public void addContact(){
@@ -49,5 +46,9 @@ public class ContactManager
 	        textFieldsList.get(2).sendKeys("Some@example.com");
 	        driver.swipe(100, 500, 100, 100, 2);
 	        driver.findElementByName("Save").click();
+	    }
+	    @AfterMethod(alwaysRun=true)
+	    public void tearDown() throws Exception {
+	        driver.quit();
 	    }
 }
