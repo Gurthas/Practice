@@ -1,6 +1,6 @@
 #!/usr/bin/env python
 # coding: utf-8
-__author__ = 'wzy'
+__author__ = '~~'
 __date__ = '2015-12-18 10:50'
 
 import json
