@@ -1,6 +1,6 @@
 #!/usr/bin/env python
 # coding: utf-8
-__author__ = '~~'
+__author__ = 'wzy'
 __date__ = '2015-12-18 10:50'
 
 import json
@@ -8,7 +8,7 @@ import logging
 
 import requests
 
-_DEVICE_ID = 'wang-test-device'
+_DEVICE_ID = 'test-device'
 _BB = 'xx00xx00xxoo'
 
 
@@ -20,7 +20,7 @@ class SharkClient(object):
     }
     _COMMON_QUERY_PARAM = {
         'platform': 'android',
-        'version': '0,20',
+        'version': '0,21',
         'did': _DEVICE_ID
     }
 
@@ -48,13 +48,23 @@ class SharkClient(object):
         self._COMMON_QUERY_PARAM['bbid'] = res['bbid']
         logging.info('%s login success', mobile)
         return True
+    
+    def signup_password(self,mobile,password,code,invite_code,rdid):
+        data = {
+            'mobile':mobile,
+            'password' :password,
+            'code':code,
+            'invite_code':'',
+            'rdid':_DEVICE_ID,        
+        }
+        return self._post('/api.signup', data=data)
 
     def login_sms(self, mobile):
         data = {
             'mobile': mobile,
             'sms_token': '',
         }
-        self._post('/api.login.sms', data=data)
+        self._post('/api.login.sms', data)
 
     def device(self, model, os, os_version, screen_size, app_version):
         data = {
