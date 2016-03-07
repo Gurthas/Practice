@@ -14,7 +14,6 @@ class TestSchoolList(unittest.TestCase):
             'longitude':longitude,
             'latitude':latitude,  }
         schoollist = requests.post(url,data)
-        print schoollist.text
         s = json.loads(schoollist.text)
         print s ['data']['schools'][1]['name']
       

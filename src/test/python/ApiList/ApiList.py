@@ -1,10 +1,12 @@
 #!/usr/bin/env python
 # coding: utf-8
+from _elementtree import Comment
 __author__ = 'wzy'
 __date__ = '2015-12-18 10:50'
 
 import json
 import logging
+import hashlib
 
 import requests
 
@@ -49,12 +51,12 @@ class SharkClient(object):
         logging.info('%s login success', mobile)
         return True
     
-    def signup_password(self,mobile,password,code,invite_code,rdid):
+    def signup_password(self,mobile,password,code):
         data = {
             'mobile':mobile,
-            'password' :password,
+            'password' :hashlib.md5(password).hexdigest(),
             'code':code,
-            'invite_code':'',
+            'invite_code':'invite_code',
             'rdid':_DEVICE_ID,        
         }
         return self._post('/api.signup', data=data)
@@ -133,6 +135,42 @@ class SharkClient(object):
             'city': city
         }
         return self._get('/api.area', data)
+    def submit_comment(self,comment,comment_type,oid):
+        data = {
+            'comment':comment,
+            'comment_type':comment_type,
+            'oid':oid}
+        return self._post('/api.order.comment.submit',data)
+    
+    def test_reset_password(self,mobile,password):
+        self.login_sms(mobile)
+        code = self.query_verify_code(mobile)
+        data = {
+                'mobile':'15011431186',
+                'password':hashlib.md5(password).hexdigest(),
+                'code':code,      
+        }
+        return self._post('/api.reset.password', data)
+    
+    def get_goods_types(self,sid):
+        data = {
+            'sid':sid,
+        }
+        return self._post('/api.goods.types',data)
+    
+    def prize_order(self,oid,pay_method):
+        data = {
+            'oid':oid,
+            'pay_method':pay_method,
+        }
+        return self._post('/api.order.prizer', data)
+    
+    def goods_info(self,sid,ids):
+        data = {        
+            'sid':sid,
+            'ids':ids ,   
+        }
+        return self._post('/api.goods.info', data) 
 
     def _get(self, api_url, data=None):
         return self._request('get', api_url, params=data)
