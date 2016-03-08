@@ -1,7 +1,8 @@
 #!/usr/bin/env python
 # coding: utf-8
 from _elementtree import Comment
-__author__ = 'wzy'
+from django.core.handlers.wsgi import LimitedStream
+__author__ = ''
 __date__ = '2015-12-18 10:50'
 
 import json
@@ -170,8 +171,42 @@ class SharkClient(object):
             'sid':sid,
             'ids':ids ,   
         }
-        return self._post('/api.goods.info', data) 
-
+        return self._post('/api.goods.info', data)
+    
+    def presubmit(self,sid,goods): 
+        data = {
+            'sid':sid,
+            'goods':json.dumps(goods),
+        }
+        return self._post('/api.order.presubmit', data)
+    
+    def submit(self, address, bid, goods, latitude, longitude, mobile, name, sid, type):
+        data = {
+            'address': address,
+            'bid': bid,
+            'goods': json.dumps(goods),
+            'latitude': latitude,
+            'longitude': longitude,
+            'mobile': mobile,
+            'name': name,
+            'sid': sid,
+            'type': type
+        }
+        return self._post('/api.order.submit', data)
+    
+    def preorder_schedule(self,sid):
+        data = {
+            'sid':sid,    
+                }
+        return self._get('/api.preorder.schedule', data)
+    
+    def get_order_list(self,limit=0,skip=0):
+        data = {
+            'limit':limit,
+            'skip':skip   
+                }
+        return self._post('/api.order.list', data)
+    
     def _get(self, api_url, data=None):
         return self._request('get', api_url, params=data)
 
