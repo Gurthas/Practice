@@ -5,3 +5,6 @@
 **.versionsBackup
 **bulid**
 **target**
+.idea
+**.iml
+**.gitignore
