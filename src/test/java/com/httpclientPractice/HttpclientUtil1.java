@@ -32,21 +32,19 @@ public class HttpclientUtil1 {
             NameValuePair pair = new BasicNameValuePair(entry.getKey(), entry
                     .getValue().toString());
             list.add(pair);
-            UrlEncodedFormEntity uefentity = new UrlEncodedFormEntity(list,
-                    StandardCharsets.UTF_8);
-            post.setEntity(uefentity);
         }
+        post.setEntity(new UrlEncodedFormEntity(list, StandardCharsets.UTF_8));
+        CloseableHttpResponse response = httpclient.execute(post);
         try {
-            CloseableHttpResponse response = httpclient.execute(post);
             HttpEntity entity = response.getEntity();
+            EntityUtils.consume(entity);
             httpstr = EntityUtils.toString(entity, StandardCharsets.UTF_8);
         } catch (IOException e) {
             e.printStackTrace();
         } catch (ParseException e) {
             e.printStackTrace();
         } finally {
-            if (httpclient != null)
-                httpclient.close();
+            response.close();
         }
         return httpstr;
     }
