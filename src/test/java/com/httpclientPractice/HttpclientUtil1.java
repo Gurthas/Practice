@@ -37,7 +37,6 @@ public class HttpclientUtil1 {
         CloseableHttpResponse response = httpclient.execute(post);
         try {
             HttpEntity entity = response.getEntity();
-            EntityUtils.consume(entity);
             httpstr = EntityUtils.toString(entity, StandardCharsets.UTF_8);
         } catch (IOException e) {
             e.printStackTrace();
