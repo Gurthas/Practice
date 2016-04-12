@@ -37,7 +37,7 @@ public class HttpclientUtil1 {
         CloseableHttpResponse response = httpclient.execute(post);
         try {
             HttpEntity entity = response.getEntity();
-            httpstr = EntityUtils.toString(entity, StandardCharsets.UTF_8);
+            httpstr = EntityUtils.toString(entity, "GBK");
         } catch (IOException e) {
             e.printStackTrace();
         } catch (ParseException e) {
