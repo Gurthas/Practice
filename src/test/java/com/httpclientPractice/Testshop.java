@@ -1,5 +1,7 @@
 package com.httpclientPractice;
 
+import com.alibaba.fastjson.JSON;
+
 import java.util.HashMap;
 import java.util.Map;
 
@@ -10,6 +12,8 @@ public class Testshop {
         String url = "http://dev.shark.kuaikuaiyu.com/api.shop.list?platform=android&version=0,21&did=5978ad54b1c2033d";
         String post = HttpclientUtil1.post(url, params);
         System.out.println(Util.unicodeDecode(post));
-
+        String str = Util.unicodeDecode(post);
+        TestEntity testEntity = JSON.parseObject(str, TestEntity.class);
+        System.out.println(testEntity.getFlag());
     }
 }
