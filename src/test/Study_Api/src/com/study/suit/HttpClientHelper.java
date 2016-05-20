@@ -15,8 +15,9 @@ import org.apache.http.impl.client.CloseableHttpClient;
 import org.apache.http.impl.client.HttpClients;
 import org.apache.http.message.BasicNameValuePair;
 import org.apache.http.util.EntityUtils;
+import org.json.JSONObject;
 
-
+import com.google.gson.JsonObject;
 
 import java.io.IOException;
 import java.net.ProtocolException;
@@ -92,15 +93,15 @@ public class HttpClientHelper {
 		return result;
 	}
 	
-	public static String doPostJson(String url, String params) throws ClientProtocolException, IOException {
+	public static String doPostJson(String url, JSONObject params) throws ClientProtocolException, IOException {
 		String result = null;
 		CloseableHttpClient httpclient = HttpClients.createDefault();
 		//创建请求方法实例，指定url
 		HttpPost post = new HttpPost(url);
-		List list = new ArrayList();
-			 list.add(params);
-		
-		post.setEntity(new UrlEncodedFormEntity(list, StandardCharsets.UTF_8));
+		StringEntity s = new StringEntity(params.toString());    
+		          s.setContentEncoding("UTF-8");    
+		          s.setContentType("application/json");    
+	          post.setEntity(s); 
 		//调用HttpClient对象的execute(HttpUriRequest request)发送请求，该方法返回一个HttpResponse
 		CloseableHttpResponse response = httpclient.execute(post);
 		/*调用HttpResponse的getAllHeaders()、getHeaders(String name)等方法可获取服务器的响应头；
