@@ -1,5 +1,12 @@
 package com.study.suit;
 
-public class LoginTest {
+import org.testng.annotations.Test;
 
+import com.study.dataprovider.LoginDataProvider;
+
+public class LoginTest {
+@Test(dataProvider = "login",dataProviderClass = LoginDataProvider.class)
+public void login(){
+	
+}
 }
