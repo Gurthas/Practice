@@ -1,0 +1,57 @@
+CREATE TABLE student（
+uid int(10) not null primary key auto_increment,
+name varhchar(10) not null,
+age int(10) not null,
+sex varchar(6) not null,
+adress varhchar(10) not null
+)
+
+CREATE TABLE subject(
+sno int(10) not null primary key auto_increment,
+name varchar(10) not null,
+remark varchar(5) not null
+)
+ 
+改表名:alter table table_name rename new_table_name
+
+
+修改表的语法
+=========================
+增加列[add 列名]
+=========================
+①alter table 表名 add 列名 列类型 列参数【加的列在表的最后面】
+    例：alter table test add username char(20) not null default '';
+        alter table test add birth date not null default '0000-00-00';
+
+②alter table 表名 add 列名 列类型 列参数 after 某列【把新列加在某列后面】
+    例：alter table test add gender char(1) not null default '' after username;
+
+③alter table 表名 add 列名 列类型 列参数 first【把新列加在最前面】
+    例：alter table test add pid int not null default 0 first;
+
+=========================
+删除列[drop 列名]
+=========================
+①alter table 表名 drop 列名
+    例：alter table test drop pid;
+
+=========================
+修改列[modife 列名]
+=========================
+①alter table 表名 modify 列名 新类型 新参数【修改列类型】
+    例：alter table test modify gender char(4) not null default '';
+②alter table 表名 change 旧列名 新列名 新类型 新参数【修改列名和列类型】
+    例：alter table test change pid uid int unsigned not null default 0;
+
+
+比如说 test表的id列自增，删除自增的sql如下
+alter table test change id id int;
+
+需要修改字段名称时使用change；当需要修改字段类型时使用modify
+
+删除primary key
+alter table table_name drop primary key
+
+update
+update table_name set 列 = “”
+

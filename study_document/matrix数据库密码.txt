@@ -1,0 +1,6 @@
+root
+ohtielaiphoohahvaing9fie1VushaechoChaesaeg1tem6kahshohmeetoob8ei
+
+
+
+mysql -hproxy.kuaikuaiyu.com -P3000 -uroot -pohtielaiphoohahvaing9fie1VushaechoChaesaeg1tem6kahshohmeetoob8ei
