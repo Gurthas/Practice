@@ -21,6 +21,7 @@ public class testJson {
 		obj.put("loginName","13901111111");
 		obj.put("password", "123456");
 		HttpClientHelper.doPostJson(GlobalSettings.loginJson, obj);
+		System.out.println(obj);
 		
 		
 		

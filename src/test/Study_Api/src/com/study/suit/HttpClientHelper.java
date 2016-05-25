@@ -51,9 +51,8 @@ public class HttpClientHelper {
 		try {
 			HttpEntity entity = response.getEntity();
 			int statusCode = response.getStatusLine().getStatusCode();
-			System.out.println("执行状态码 : " + statusCode);
+			//System.out.println("执行状态码 : " + statusCode);
 			httpstr = EntityUtils.toString(entity, "GBK");
-			System.out.println(list);
 			System.out.println(httpstr);
 		} catch (IOException e) {
 			e.printStackTrace();
@@ -63,7 +62,10 @@ public class HttpClientHelper {
 		} finally {
 			response.close();
 		}
+		
 		return httpstr;
+		
+		
 	}
 
 	public static String doGet(String url, Map<String, String> params) {
