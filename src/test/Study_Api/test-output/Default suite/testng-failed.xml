@@ -5,7 +5,8 @@
     <classes>
       <class name="com.study.suit.SunTest">
         <methods>
-          <include name="login" invocation-numbers="0 1 2"/>
+          <include name="requestVerifyCode"/>
+          <include name="getVerifyCode" invocation-numbers="0"/>
         </methods>
       </class> <!-- com.study.suit.SunTest -->
     </classes>
