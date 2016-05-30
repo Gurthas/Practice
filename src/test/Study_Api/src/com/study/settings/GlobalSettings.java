@@ -6,5 +6,5 @@ public class GlobalSettings {
 		public static String loginW = "http://120.25.194.185:1880/api.login";
 		public static String KkySmsUrl = "http://dev.shark.kuaikuaiyu.com/api.login.sms?platform=android&version=0,17";
 		public static String VerifyCodeUrl = "http://dev.shark.kuaikuaiyu.com/debug.code.query";
-		public static String KkyLogin = "http://dev.shark.kuaikuaiyu.com/api.login?version=0,17";
+		public static String KkyLogin = "http://dev.shark.kuaikuaiyu.com/api.login?platform=android&version=0,16";
 }

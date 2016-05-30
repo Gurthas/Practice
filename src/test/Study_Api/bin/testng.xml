@@ -1,12 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
 <suite name="Suite" parallel="false" preserve-order="true">
-  <test name="Test">
+  <test name="Sun_test">
     <classes>
       <class name="com.study.suit.SunTest">
       <methods>
       <include name="requestVerifyCode"/>
       <include name="getVerifyCode"/>
+      <include name="kkyLogin"/>
       
       </methods>
       </class>
