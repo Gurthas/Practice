@@ -1,0 +1,13 @@
+{
+    "version": "5_0_0",
+    "channel": "IOS",
+    "http": "https",
+    "user": 18201049123,
+    "pwd": "123456",
+    "add": {
+        "SingleItem_id": 1000137,
+        "SingleItem_size": "SINGLE",
+        "promotion_mid": 126,
+        "promotion_id": 185
+    }	
+}

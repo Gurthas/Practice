@@ -1,0 +1,563 @@
+[10:52:14:930] [INFO] - com.mia.Test.Checkout.Checkout_Single_4.BeforeMethod(Checkout_Single_4.java:36) - 普通单品初始化数据
+[10:52:14:946] [INFO] - com.mia.data.Constant.<clinit>(Constant.java:55) - ***************************开始初始化用户基本信息****************************************************
+[10:53:00:909] [INFO] - com.mia.Test.Checkout.Checkout_Single_1.BeforeMethod(Checkout_Single_1.java:28) - 普通单品初始化数据
+[10:53:00:912] [INFO] - com.mia.data.Constant.<clinit>(Constant.java:55) - ***************************开始初始化用户基本信息****************************************************
+[10:53:01:007] [INFO] - com.mia.Report.TestngListener.onTestStart(TestngListener.java:18) - 
+**************************************************
+接口测试开始
+[10:53:01:010] [INFO] - com.mia.Report.TestngListener.onTestSkipped(TestngListener.java:37) - 
+用例跳过
+**************************************************
+
+[10:53:01:014] [INFO] - com.mia.Test.Checkout.Checkout_Single_2.BeforeMethod(Checkout_Single_2.java:34) - 普通单品初始化数据
+[10:53:01:019] [INFO] - com.mia.Report.TestngListener.onTestStart(TestngListener.java:18) - 
+**************************************************
+接口测试开始
+[10:53:01:023] [INFO] - com.mia.Report.TestngListener.onTestSkipped(TestngListener.java:37) - 
+用例跳过
+**************************************************
+
+[10:53:01:025] [INFO] - com.mia.Test.Checkout.Checkout_Single_3.BeforeMethod(Checkout_Single_3.java:31) - 普通单品初始化数据
+[10:53:01:030] [INFO] - com.mia.Report.TestngListener.onTestStart(TestngListener.java:18) - 
+**************************************************
+接口测试开始
+[10:53:01:035] [INFO] - com.mia.Report.TestngListener.onTestSkipped(TestngListener.java:37) - 
+用例跳过
+**************************************************
+
+[10:53:01:038] [INFO] - com.mia.Test.Checkout.Checkout_Single_4.BeforeMethod(Checkout_Single_4.java:36) - 普通单品初始化数据
+[10:53:01:042] [INFO] - com.mia.Report.TestngListener.onTestStart(TestngListener.java:18) - 
+**************************************************
+接口测试开始
+[10:53:01:046] [INFO] - com.mia.Report.TestngListener.onTestSkipped(TestngListener.java:37) - 
+用例跳过
+**************************************************
+
+[10:53:41:646] [INFO] - com.mia.Test.Checkout.Checkout_Single_4.BeforeMethod(Checkout_Single_4.java:36) - 普通单品初始化数据
+[10:53:41:649] [INFO] - com.mia.data.Constant.<clinit>(Constant.java:55) - ***************************开始初始化用户基本信息****************************************************
+[10:53:41:729] [INFO] - com.mia.data.Constant.<clinit>(Constant.java:61) - 初始化Version：4_9_0
+[10:53:41:730] [INFO] - com.mia.data.Constant.<clinit>(Constant.java:66) - 初始化Channel：IOS
+[10:53:41:752] [INFO] - com.mia.data.Constant.<clinit>(Constant.java:71) - 初始化SingleItem_id：1000137
+[10:53:41:753] [INFO] - com.mia.data.Constant.<clinit>(Constant.java:81) - 初始化url：https://api.miyabaobei.com/
+[10:53:41:754] [INFO] - com.mia.data.Constant.<clinit>(Constant.java:87) - 初始化versionId：ios_4_9_0
+[10:53:41:754] [INFO] - com.mia.data.Constant.<clinit>(Constant.java:89) - 初始化channel：IOS
+[10:53:41:754] [INFO] - com.mia.data.Constant.<clinit>(Constant.java:91) - 初始化app_id：ios_test_id
+[10:53:41:755] [INFO] - com.mia.data.Constant.<clinit>(Constant.java:93) - 初始化secret：MIYABABY_IOS
+[10:53:42:129] [INFO] - com.mia.Method.Http.Httpclient.sendHttpPost(Httpclient.java:116) - 
+接口名称：https://api.miyabaobei.com/account/login/
+请求报文：app_id=ios_test_id&auth_session=&dvc_id=miatest421291dcace14c708b01e3b58b0e89cc&params=F3XLLTpRW6pzrJltS6Njxfxm2oHwE034r6LZ4MvC3iv8lO-Ckt3VnllEmFGBczPDJZpOYaYYMuSlag-DBDPvTOawH6mbzi3P8qTtLx7iHKX_XZmgRtqVDYiaw1-IFYiOeePpGDpRu_0Gr-7o9_h4Nvb8FjXnxE5L4pyj2q4zOh8=fJilkN0sd2FcMuCT7_2HxDnizrNwjocsW5GHdLYdUjuxgLuJLD6Fqdcit_EoRJr-_3_jgs3OCeh1rWTxRCEZWICOGvgrlG5DD1vD4R_f7d7X5n0e6qfkpT2V_HpoUdKB9QJJWGi_k8jBIoDprMbG4pvMlPF3DD8pu1FEB_XYspE=&regid=miatest421291dcace14c708b01e3b58b0e89cc&session=148393042176054696&sign=48fb76d32fba26beebaf63b67ae49afe&timestamp=1483930421&version=ios_4_9_0
+[10:53:42:411] [INFO] - com.mia.Method.Http.Httpclient.sendHttpPost(Httpclient.java:137) - 
+响应结果：{"content":{"cell_phone":"18201049123","child_nickname":"111111","consume_money":"0.00","icon":"","status":"1","nickname":"miya182****9123","user_status":"1","login_platform":"miya","child_birth_day":"2014-09-02","level_id":1,"is_id_verified":0,"child_age":"2岁4个月","is_cell_verified":"1","username":"miya182****9123","level":"小蜜粉","create_date":"2015-11-17 11:47:28","auth_session":"70c510c94541f3422a2e4c08d53f2d46","child_sex":"1","userblockname":"miya182****9123","user_id":1508762,"mibean_level":"1","level_number":"Lv.0","child_age_info":{"month":"4","year":"2","day":"7","type":"age"}},"alert":"操作成功!","code":200,"msg":""}
+[10:53:42:413] [INFO] - com.mia.data.Constant.<clinit>(Constant.java:134) - 初始化userid：1508762
+[10:53:42:413] [INFO] - com.mia.data.Constant.<clinit>(Constant.java:135) - 初始化auth_session：70c510c94541f3422a2e4c08d53f2d46
+[10:53:42:414] [INFO] - com.mia.data.Constant.<clinit>(Constant.java:141) - ***************************初始化用户基本信息结束****************************************************
+[10:53:43:253] [INFO] - com.mia.DB.SqlUtils.update(SqlUtils.java:29) - SQL执行失败：INSERT INTO `promotion_items` (`promotion_id`, `sku`, `active_price`, `app_price`, `status`, `max_buy`, `day_limited`, `is_best`, `limit_stock`, `remark`, `user_id`, `department_id`, `order`, `recent_sale_num`, `recent_sale_amount`, `min_sale_amount`, `old_promotion_price`, `item_level`, `update_time`, `activity_dynamics`, `groupon`, `short_title`, `short_info`, `gross_margin`, `payprice`, `tax_active_price`, `tax_price`, `gross_mergin_price`)VALUES (126, 1000137, 148.00, 148.00, 0, -1, -1, 0, -1, '0', 0, 0, 0, 0, 0.00, 0.00, '', -1, 2017-01-09 10:53:43', NULL, 0, '', '', 6.00, 0.00, 0.00, 0.00, 0.00)
+失败信息：java.sql.SQLException: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '10:53:43', NULL, 0, '', '', 6.00, 0.00, 0.00, 0.00, 0.00)' at line 1 Query: INSERT INTO `promotion_items` (`promotion_id`, `sku`, `active_price`, `app_price`, `status`, `max_buy`, `day_limited`, `is_best`, `limit_stock`, `remark`, `user_id`, `department_id`, `order`, `recent_sale_num`, `recent_sale_amount`, `min_sale_amount`, `old_promotion_price`, `item_level`, `update_time`, `activity_dynamics`, `groupon`, `short_title`, `short_info`, `gross_margin`, `payprice`, `tax_active_price`, `tax_price`, `gross_mergin_price`)VALUES (126, 1000137, 148.00, 148.00, 0, -1, -1, 0, -1, '0', 0, 0, 0, 0, 0.00, 0.00, '', -1, 2017-01-09 10:53:43', NULL, 0, '', '', 6.00, 0.00, 0.00, 0.00, 0.00) Parameters: []
+[10:53:43:262] [INFO] - com.mia.Method.Http.Httpclient.sendHttpPost(Httpclient.java:116) - 
+接口名称：https://api.miyabaobei.com/topcart/add
+请求报文：app_id=ios_test_id&auth_session=70c510c94541f3422a2e4c08d53f2d46&dvc_id=miateste646e554da3346f2b1915bd00928e592&params=cdnYor2MefUKFc0kkRYuq3rWaFhqLMo-ICG-SsAZVzgfhtJes354K8OLxOim2RobXUGwVMXqCnASt-MPhvbr87dIaHsmgzZUJ_pErKhCkPzYpm2FWqgOz_vNacNI9AV03g64IanY28pKsBJ576WKV8N5WG0G4xMmRsFFaZyhUKo=Tj0vZQpI8ZkyPYnUk7OzFRn0fqCyxjSREFeuq-2hUjVp6U9c9p1Q4L25wnFdeAQxqsWxIOIH5F7tr9BcGLOrcOm-qaN5aISLbtrVcEGr7CPEwi3ZP48CW-VcXnUwM6qpEGirZhdwmZaBO0zDDyoXF3gdfr1w1ASjcP1Tv_BtMt8=&regid=miateste646e554da3346f2b1915bd00928e592&session=148393042325569321&sign=5362014a7a88f28eaceef06e4ffe3075&timestamp=1483930423&version=ios_4_9_0
+[10:53:43:496] [INFO] - com.mia.Method.Http.Httpclient.sendHttpPost(Httpclient.java:137) - 
+响应结果：{"content":1,"alert":"操作成功!","code":200,"msg":""}
+[10:53:43:496] [INFO] - com.mia.Test.Checkout.Checkout_Single_4.BeforeMethod(Checkout_Single_4.java:58) - Topcart_add响应结果： 200
+[10:53:43:508] [INFO] - com.mia.Method.Http.Httpclient.sendHttpPost(Httpclient.java:116) - 
+接口名称：https://api.miyabaobei.com/order/checkout
+请求报文：app_id=ios_test_id&auth_session=70c510c94541f3422a2e4c08d53f2d46&dvc_id=miatestdf0c35a8298d4e18b7b01b03ad0daa7a&params=kqStPqodZnaSilqCG04FvtVdQO5J5BOwYhB5YzyI3TiJRF03k7nIde3g1lPAdVOfIOvotAsRb8SafSQ8l0UdoM6tlkqF1t-JuCOjBoDiRmr0r33N_KwvA5BpCLfULs4umW4KVZxjVaArzsVq85qFq5y7m4kR4TtOLFJb198h_54=&regid=miatestdf0c35a8298d4e18b7b01b03ad0daa7a&session=148393042350305846&sign=23654bd505925f08b7bc6b75bba6ad4f&timestamp=1483930423&version=ios_4_9_0
+[10:53:43:866] [INFO] - com.mia.Method.Http.Httpclient.sendHttpPost(Httpclient.java:137) - 
+响应结果：{"content":{"top_tips":"","lock_balance":0,"default_address":{"city_id":"456","id":"501577","town_id":"43014","area_id":"4446","prov":"北京市","phone":"","area":"东城区","address":"三里屯酒吧","name":"列王","town":"内环到三环里","prov_id":"1","city":"北京市","mobile":"13888888888"},"show_invoice_desc":"","checkout_item":[{"sub_item":[{"warehouse_name":"","lottery_flag":"","sale_price":"200.00","is_gift":"0","item_time":"2017-01-09 10:53:01","spec_show":"","pic":"https://img02.miyabaobei.com/item/10/1000/1000137_normal_1.jpg","size":"SINGLE","is_spu":"0","market_price":"200.00","item_id":"1000137","name":"啾啾  CHUCHU 可爱妈妈玻璃宽口奶瓶 皇冠 160ml","quantity":1}],"sub_content":{"title":"蜜芽自营","has_hongkong_warehouse":0,"sub_pay_price":200,"sub_total_qty":1}}],"other_address":[{"city_id":"456","id":"501577","town_id":"43014","area_id":"4446","prov":"北京市","phone":"","area":"东城区","address":"三里屯酒吧","name":"列王","town":"内环到三环里","prov_id":"1","city":"北京市","mobile":"13888888888"}],"mia_tips":"","cart_total":{"total_coupon_price":0,"redbag_refresh":true,"sale_price":200,"total_redbag_price":"0","coupon_text":"使用优惠券","total_promotion_reduce":0,"reduce_price":0,"settlement_mode":0,"coupon_code":"","coupon_refresh":true,"freight_price":0,"freight_spec":"","redbag_text":"使用红包","coupon_spec":"","thrift_price":0,"total_market_price":200,"free_ship_flag":"","redbag_spec":"","quantity":1,"redbag_use_flag":true,"pay_price":200,"redbag_id":""},"total_balance":0,"type":"official","may_invoice":false,"promote_image":""},"request_id":"201701091053301fa733f6a347bf6574b73ccebaad9d62","alert":"查询成功","code":200}
+[10:53:43:879] [INFO] - com.mia.Method.Http.Httpclient.sendHttpPost(Httpclient.java:116) - 
+接口名称：https://api.miyabaobei.com/cart/info
+请求报文：app_id=ios_test_id&auth_session=70c510c94541f3422a2e4c08d53f2d46&dvc_id=miatestd2969405a3644b41aebcb22167abab8f&regid=miatestd2969405a3644b41aebcb22167abab8f&session=148393042387127158&sign=d591ac1211a4af14454f92f20fd85a34&timestamp=1483930423&version=ios_4_9_0
+[10:53:44:001] [INFO] - com.mia.Method.Http.Httpclient.sendHttpPost(Httpclient.java:137) - 
+响应结果：{"content":{"cart_msgs":[],"invalid_item":[],"cart_total":{"select_quantity":1,"freight_tax_name":"不含运费和进口税","is_select_all":1,"settle_amount":200},"official_total":1,"row_infos":[{"is_valid_store":0,"store_id":0,"item_group":[{"items":[{"gift":"","warehouse_id":"40","spec_show":"","is_select":1,"store_id":"1192","item_quantity":1,"item_sale_price":"200.00","item_stock":99,"item_size":"SINGLE","id":"148393038189255","is_spu":"0","warehouse_type":"1","item_name":"啾啾  CHUCHU 可爱妈妈玻璃宽口奶瓶 皇冠 160ml","item_id":"1000137","item_market_price":"200.00","item_pic":"https://img.miyabaobei.com/item/10/1000/1000137_normal_2.jpg","promotion_tag":0}]}],"check_all":1,"store_name":"蜜芽自营","is_special":0}]},"alert":"操作成功!","code":200,"msg":""}
+[10:53:44:015] [INFO] - com.mia.Method.Method.JsonParam(Method.java:106) - 
+ ************业务参数**********
+{"row_id":"148393038189255"}
+ ************业务参数**********
+[10:53:44:022] [INFO] - com.mia.Method.Http.Httpclient.sendHttpPost(Httpclient.java:116) - 
+接口名称：https://api.miyabaobei.com/cart/delete
+请求报文：app_id=ios_test_id&auth_session=70c510c94541f3422a2e4c08d53f2d46&dvc_id=miatest0d61f6ef175e4838b0e9b357274c3ab1&params=ZmiXVTarkOAa75SkXn27BHtBFvCbs90uM5psIGTI-8KLfzJ6U_DQzHBRe6UGjWAmgv8yEqZZ6KYXIvwjZ1bF72jBiPvHXXh7KtT3Fnfuvxw27PnkhTziYcbt69YbMZ4i57HpGxaiyASmuc2Zeu0ni_6aSH8Ls_E51YZPnZuLNBo=&regid=miatest0d61f6ef175e4838b0e9b357274c3ab1&session=148393042401527244&sign=ff87ecef1f9e2cb96dde5a08f7bb9738&timestamp=1483930424&version=ios_4_9_0
+[10:53:44:134] [INFO] - com.mia.Method.Http.Httpclient.sendHttpPost(Httpclient.java:137) - 
+响应结果：{"content":{"cart_msgs":[],"invalid_item":[],"cart_total":{"select_quantity":0,"taxes_price":0,"is_select_all":0,"settle_amount":0,"thrift_price":0},"official_total":0,"row_infos":[]},"alert":"操作成功!","code":200,"msg":""}
+[11:01:26:018] [INFO] - com.mia.Test.Checkout.Checkout_Single_4.BeforeMethod(Checkout_Single_4.java:36) - 普通单品初始化数据
+[11:01:26:020] [INFO] - com.mia.data.Constant.<clinit>(Constant.java:55) - ***************************开始初始化用户基本信息****************************************************
+[11:01:26:110] [INFO] - com.mia.data.Constant.<clinit>(Constant.java:61) - 初始化Version：5_0_0
+[11:01:26:111] [INFO] - com.mia.data.Constant.<clinit>(Constant.java:66) - 初始化Channel：IOS
+[11:01:26:129] [INFO] - com.mia.data.Constant.<clinit>(Constant.java:71) - 初始化SingleItem_id：1000137
+[11:01:26:131] [INFO] - com.mia.data.Constant.<clinit>(Constant.java:81) - 初始化url：https://api.miyabaobei.com/
+[11:01:26:132] [INFO] - com.mia.data.Constant.<clinit>(Constant.java:87) - 初始化versionId：ios_5_0_0
+[11:01:26:132] [INFO] - com.mia.data.Constant.<clinit>(Constant.java:89) - 初始化channel：IOS
+[11:01:26:132] [INFO] - com.mia.data.Constant.<clinit>(Constant.java:91) - 初始化app_id：ios_test_id
+[11:01:26:133] [INFO] - com.mia.data.Constant.<clinit>(Constant.java:93) - 初始化secret：MIYABABY_IOS
+[11:01:26:454] [INFO] - com.mia.Method.Http.Httpclient.sendHttpPost(Httpclient.java:116) - 
+接口名称：https://api.miyabaobei.com/account/login/
+请求报文：app_id=ios_test_id&auth_session=&dvc_id=miatest08dc228dc539442fb4162c999999ba36&params=JHLDwq1ZqgtjqbqbtK_6QUkYgcJVgB-nemgIdflv87HW_rcp0O_1NxlHTAWPjGP9Iami2J0KFrDgOCyIIGX8TeCE6L0PjL-5vd_34UJg5mTPUB5qkCiEbuyaCZMbhfsgrW3phnvGbRcvTTBvS4yF-2rzNisGgjt5H0PhxOWQxuw=UxiVcBXErTpoeg7oGeg8c_xsKsilMWIGgxyE3hOWfrcFLfJU6WNVhUmafx0G2tnAygoK4jlUwz0RdHgIIlwUJ3YPt1bnMLczRakSMo-qv0PVEKpoRfYMJO6hSW96SS6-3ZyfRmhtNV1-pp3BKrLvH1mFm7VbVpX3Qun9idp04mk=&regid=miatest08dc228dc539442fb4162c999999ba36&session=148393088613899934&sign=9c6cc5ffa020bcd4ae910649da626fde&timestamp=1483930886&version=ios_5_0_0
+[11:01:26:702] [INFO] - com.mia.Method.Http.Httpclient.sendHttpPost(Httpclient.java:137) - 
+响应结果：{"content":{"cell_phone":"18201049123","child_nickname":"111111","consume_money":"0.00","icon":"","status":"1","nickname":"miya182****9123","user_status":"1","login_platform":"miya","child_birth_day":"2014-09-02","level_id":1,"is_id_verified":0,"child_age":"2岁4个月","is_cell_verified":"1","username":"miya182****9123","level":"小蜜粉","create_date":"2015-11-17 11:47:28","auth_session":"2626e144765659dd48a0ab5bb52bc054","child_sex":"1","userblockname":"miya182****9123","user_id":1508762,"mibean_level":"1","level_number":"Lv.0","child_age_info":{"month":"4","year":"2","day":"7","type":"age"}},"alert":"操作成功!","code":200,"msg":""}
+[11:01:26:711] [INFO] - com.mia.data.Constant.<clinit>(Constant.java:134) - 初始化userid：1508762
+[11:01:26:711] [INFO] - com.mia.data.Constant.<clinit>(Constant.java:135) - 初始化auth_session：2626e144765659dd48a0ab5bb52bc054
+[11:01:26:711] [INFO] - com.mia.data.Constant.<clinit>(Constant.java:141) - ***************************初始化用户基本信息结束****************************************************
+[11:01:27:324] [INFO] - com.mia.DB.SqlUtils.update(SqlUtils.java:29) - SQL执行失败：INSERT INTO `promotion_items` (`promotion_id`, `sku`, `active_price`, `app_price`, `status`, `max_buy`, `day_limited`, `is_best`, `limit_stock`, `remark`, `user_id`, `department_id`, `order`, `recent_sale_num`, `recent_sale_amount`, `min_sale_amount`, `old_promotion_price`, `item_level`, `update_time`, `activity_dynamics`, `groupon`, `short_title`, `short_info`, `gross_margin`, `payprice`, `tax_active_price`, `tax_price`, `gross_mergin_price`)VALUES (126, 1000137, 148.00, 148.00, 0, -1, -1, 0, -1, '0', 0, 0, 0, 0, 0.00, 0.00, '', -1, 2017-01-09 11:01:27', NULL, 0, '', '', 6.00, 0.00, 0.00, 0.00, 0.00)
+失败信息：java.sql.SQLException: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '11:01:27', NULL, 0, '', '', 6.00, 0.00, 0.00, 0.00, 0.00)' at line 1 Query: INSERT INTO `promotion_items` (`promotion_id`, `sku`, `active_price`, `app_price`, `status`, `max_buy`, `day_limited`, `is_best`, `limit_stock`, `remark`, `user_id`, `department_id`, `order`, `recent_sale_num`, `recent_sale_amount`, `min_sale_amount`, `old_promotion_price`, `item_level`, `update_time`, `activity_dynamics`, `groupon`, `short_title`, `short_info`, `gross_margin`, `payprice`, `tax_active_price`, `tax_price`, `gross_mergin_price`)VALUES (126, 1000137, 148.00, 148.00, 0, -1, -1, 0, -1, '0', 0, 0, 0, 0, 0.00, 0.00, '', -1, 2017-01-09 11:01:27', NULL, 0, '', '', 6.00, 0.00, 0.00, 0.00, 0.00) Parameters: []
+[11:01:27:332] [INFO] - com.mia.Method.Http.Httpclient.sendHttpPost(Httpclient.java:116) - 
+接口名称：https://api.miyabaobei.com/topcart/add
+请求报文：app_id=ios_test_id&auth_session=2626e144765659dd48a0ab5bb52bc054&dvc_id=miatestf15c5f96e70145dabc9eebae9d6a0ba3&params=fXPCQKWv7YYxcxJo8LQgZCaVhNfH-w-6QS_NtZyroTgefBc122zVE9JkThrfUQdIk1ynlYVOga00hXnz86EoNS2BYDb6x9nGOgHMMFxqK3e-sqy_GmnOBIqwEVjAWcXrVLdfilFVlDlVmxQlyNg_uKeO2bzyAcylZ4OXXJLaFhE=O8UKy0HvqPKpMa9LNQiLLrtIqFZJDfziXzg_smtOnnfA1IyumrjIs03oAivaNlJGGrQqECoXTdQa6uaSvL_gHetLDn3yHsbb7eLYT4g9upAiABUPM-L3C7g4GBGQrHhRfqwEZ48bkcc_rmTGXMaX3wLzg-ByDtzGJfkxBS7ocAU=&regid=miatestf15c5f96e70145dabc9eebae9d6a0ba3&session=148393088732620287&sign=7c02aa10dab03e88a46ea5db4d33b1f8&timestamp=1483930887&version=ios_5_0_0
+[11:01:27:473] [INFO] - com.mia.Method.Http.Httpclient.sendHttpPost(Httpclient.java:137) - 
+响应结果：{"content":2,"alert":"操作成功!","code":200,"msg":""}
+[11:01:27:474] [INFO] - com.mia.Test.Checkout.Checkout_Single_4.BeforeMethod(Checkout_Single_4.java:58) - Topcart_add响应结果： 200
+[11:01:27:490] [INFO] - com.mia.Method.Http.Httpclient.sendHttpPost(Httpclient.java:116) - 
+接口名称：https://api.miyabaobei.com/order/checkout
+请求报文：app_id=ios_test_id&auth_session=2626e144765659dd48a0ab5bb52bc054&dvc_id=miatest3e4d56441a5a4c0d9d7c49545bbea4e5&params=JjdLlWlrOX-WMInlzic3Lw1WmsGIGZJfBh8fZg-mRB8qV5Xejld74XGvBe3AWNkAUFpEIv4H1waHKvmBLAlVsjkgZZ6fH-kr63Tr5NlNv5yYSPXp48isjL-Ayddhl4zkRCxR83uYUKsJJY4EJSr3d7Mpjv5uPyyBo0W-VaDv2iM=&regid=miatest3e4d56441a5a4c0d9d7c49545bbea4e5&session=148393088748260943&sign=8d5c17e5d0870ad3888ae1d8bc433cac&timestamp=1483930887&version=ios_5_0_0
+[11:01:27:775] [INFO] - com.mia.Method.Http.Httpclient.sendHttpPost(Httpclient.java:137) - 
+响应结果：{"content":{"top_tips":"","lock_balance":0,"default_address":{"city_id":"456","id":"501577","town_id":"43014","area_id":"4446","prov":"北京市","phone":"","area":"东城区","address":"三里屯酒吧","name":"列王","town":"内环到三环里","prov_id":"1","city":"北京市","mobile":"13888888888"},"show_invoice_desc":"","checkout_item":[{"sub_item":[{"warehouse_name":"","lottery_flag":"","sale_price":"200.00","is_gift":"0","item_time":"2017-01-09 11:00:45","spec_show":"","pic":"https://img02.miyabaobei.com/item/10/1000/1000137_normal_1.jpg","size":"SINGLE","is_spu":"0","market_price":"200.00","item_id":"1000137","name":"啾啾  CHUCHU 可爱妈妈玻璃宽口奶瓶 皇冠 160ml","quantity":2}],"sub_content":{"title":"蜜芽自营","has_hongkong_warehouse":0,"sub_pay_price":400,"sub_total_qty":2}}],"other_address":[{"city_id":"456","id":"501577","town_id":"43014","area_id":"4446","prov":"北京市","phone":"","area":"东城区","address":"三里屯酒吧","name":"列王","town":"内环到三环里","prov_id":"1","city":"北京市","mobile":"13888888888"}],"mia_tips":"","cart_total":{"total_coupon_price":0,"redbag_refresh":true,"sale_price":400,"total_redbag_price":"0","coupon_text":"使用优惠券","total_promotion_reduce":0,"reduce_price":0,"settlement_mode":0,"coupon_code":"","coupon_refresh":true,"freight_price":0,"freight_spec":"","redbag_text":"使用红包","coupon_spec":"","thrift_price":0,"total_market_price":400,"free_ship_flag":"","redbag_spec":"","quantity":2,"redbag_use_flag":true,"pay_price":400,"redbag_id":""},"total_balance":0,"type":"official","may_invoice":false,"promote_image":""},"request_id":"20170109110114e1a57c949e74427e9f6e0df668aeaa59","alert":"查询成功","code":200}
+[11:01:27:803] [INFO] - com.mia.Method.Http.Httpclient.sendHttpPost(Httpclient.java:116) - 
+接口名称：https://api.miyabaobei.com/cart/info
+请求报文：app_id=ios_test_id&auth_session=2626e144765659dd48a0ab5bb52bc054&dvc_id=miatest776cabe2c65a4c838b1e8df148a55c5f&regid=miatest776cabe2c65a4c838b1e8df148a55c5f&session=148393088778699509&sign=ae9bdc60bc02ed4d0195ab09b98e4f5d&timestamp=1483930887&version=ios_5_0_0
+[11:01:27:958] [INFO] - com.mia.Method.Http.Httpclient.sendHttpPost(Httpclient.java:137) - 
+响应结果：{"content":{"cart_msgs":[],"invalid_item":[],"cart_total":{"select_quantity":2,"freight_tax_name":"不含运费和进口税","is_select_all":1,"settle_amount":400},"official_total":2,"row_infos":[{"is_valid_store":0,"store_id":0,"item_group":[{"items":[{"gift":"","warehouse_id":"40","spec_show":"","is_select":1,"store_id":"1192","item_quantity":2,"item_sale_price":"200.00","item_stock":99,"item_size":"SINGLE","id":"148393079222592","is_spu":"0","warehouse_type":"1","item_name":"啾啾  CHUCHU 可爱妈妈玻璃宽口奶瓶 皇冠 160ml","item_id":"1000137","item_market_price":"200.00","item_pic":"https://img.miyabaobei.com/item/10/1000/1000137_normal_2.jpg","promotion_tag":0}]}],"check_all":1,"store_name":"蜜芽自营","is_special":0}]},"alert":"操作成功!","code":200,"msg":""}
+[11:01:27:970] [INFO] - com.mia.Method.Method.JsonParam(Method.java:106) - 
+ ************业务参数**********
+{"row_id":"148393079222592"}
+ ************业务参数**********
+[11:01:27:978] [INFO] - com.mia.Method.Http.Httpclient.sendHttpPost(Httpclient.java:116) - 
+接口名称：https://api.miyabaobei.com/cart/delete
+请求报文：app_id=ios_test_id&auth_session=2626e144765659dd48a0ab5bb52bc054&dvc_id=miatesta726a94f57424336aae52530a0ee8bb6&params=RjCq4Il2VXJNFcMn7Lk0s3KiBsjUJXl8SJpqeZlrtuNw8K2w0urvld5TcQLN99UBu6j2vazIzlIARXxYxUVzB_5Le0I9ZibwP79sF46euYoPUO83cCRgQrdRe0aPGdHtRi_UAjjswXLHmMta9uzin2LgiYnZ4SnboB9gw0cWslE=&regid=miatesta726a94f57424336aae52530a0ee8bb6&session=148393088797048396&sign=322dbfb3da15fd5a8b28144365ec8847&timestamp=1483930887&version=ios_5_0_0
+[11:01:28:088] [INFO] - com.mia.Method.Http.Httpclient.sendHttpPost(Httpclient.java:137) - 
+响应结果：{"content":{"cart_msgs":[],"invalid_item":[],"cart_total":{"select_quantity":0,"taxes_price":0,"is_select_all":0,"settle_amount":0,"thrift_price":0},"official_total":0,"row_infos":[]},"alert":"操作成功!","code":200,"msg":""}
+[11:04:16:211] [INFO] - com.mia.Test.Checkout.Checkout_Single_4.BeforeMethod(Checkout_Single_4.java:36) - 普通单品初始化数据
+[11:04:16:214] [INFO] - com.mia.data.Constant.<clinit>(Constant.java:55) - ***************************开始初始化用户基本信息****************************************************
+[11:04:16:298] [INFO] - com.mia.data.Constant.<clinit>(Constant.java:61) - 初始化Version：5_0_0
+[11:04:16:299] [INFO] - com.mia.data.Constant.<clinit>(Constant.java:66) - 初始化Channel：IOS
+[11:04:16:317] [INFO] - com.mia.data.Constant.<clinit>(Constant.java:71) - 初始化SingleItem_id：1000137
+[11:04:16:318] [INFO] - com.mia.data.Constant.<clinit>(Constant.java:81) - 初始化url：https://api.miyabaobei.com/
+[11:04:16:319] [INFO] - com.mia.data.Constant.<clinit>(Constant.java:87) - 初始化versionId：ios_5_0_0
+[11:04:16:320] [INFO] - com.mia.data.Constant.<clinit>(Constant.java:89) - 初始化channel：IOS
+[11:04:16:320] [INFO] - com.mia.data.Constant.<clinit>(Constant.java:91) - 初始化app_id：ios_test_id
+[11:04:16:320] [INFO] - com.mia.data.Constant.<clinit>(Constant.java:93) - 初始化secret：MIYABABY_IOS
+[11:04:16:639] [INFO] - com.mia.Method.Http.Httpclient.sendHttpPost(Httpclient.java:116) - 
+接口名称：https://api.miyabaobei.com/account/login/
+请求报文：app_id=ios_test_id&auth_session=&dvc_id=miatest75e19b2e764e4e43bd6f201d79b733bb&params=FfK2Aq0rcCOG_3hESoaG_DM_CnQcb8WLrxIUTz9wp3B1ndUiJisIqr0j6K_jh2qH3xqOwskJ89TscS7qevhFhaX5GuAVp9LO-lksS3-_90S6DGrZL1Dtbu4nKnKMLMfLuPuk1jbld_qEbhRhaTU-oNEGu2MRJLPDmI3_o2eS6jU=m43iGMI0FzSExpfQBcVMSMC8gzgKCWJ68Tm-yfCZ2VuMYtoRw7d4SWVLdIswg4GUKDPoRE7_Zfwb0q0WUZSDbaTTeI8VB70K7DYR0m3ESv7D36m_2cqm5xcHHAlWi9921GKxkw9DExvA1D0JcZZ-wYtftsZkUvxkf4N7xGIfgAg=&regid=miatest75e19b2e764e4e43bd6f201d79b733bb&session=148393105632472120&sign=8fd8fb733ac650a72ccc7a1f919338d8&timestamp=1483931056&version=ios_5_0_0
+[11:04:16:930] [INFO] - com.mia.Method.Http.Httpclient.sendHttpPost(Httpclient.java:137) - 
+响应结果：{"content":{"cell_phone":"18201049123","child_nickname":"111111","consume_money":"0.00","icon":"","status":"1","nickname":"miya182****9123","user_status":"1","login_platform":"miya","child_birth_day":"2014-09-02","level_id":1,"is_id_verified":0,"child_age":"2岁4个月","is_cell_verified":"1","username":"miya182****9123","level":"小蜜粉","create_date":"2015-11-17 11:47:28","auth_session":"f059b32d2db4e2978c2fe248fc767175","child_sex":"1","userblockname":"miya182****9123","user_id":1508762,"mibean_level":"1","level_number":"Lv.0","child_age_info":{"month":"4","year":"2","day":"7","type":"age"}},"alert":"操作成功!","code":200,"msg":""}
+[11:04:16:931] [INFO] - com.mia.data.Constant.<clinit>(Constant.java:134) - 初始化userid：1508762
+[11:04:16:932] [INFO] - com.mia.data.Constant.<clinit>(Constant.java:135) - 初始化auth_session：f059b32d2db4e2978c2fe248fc767175
+[11:04:16:932] [INFO] - com.mia.data.Constant.<clinit>(Constant.java:141) - ***************************初始化用户基本信息结束****************************************************
+[11:04:17:411] [INFO] - com.mia.DB.SqlUtils.update(SqlUtils.java:29) - SQL执行失败：INSERT INTO `promotion_items` (`promotion_id`, `sku`, `active_price`, `app_price`, `status`, `max_buy`, `day_limited`, `is_best`, `limit_stock`, `remark`, `user_id`, `department_id`, `order`, `recent_sale_num`, `recent_sale_amount`, `min_sale_amount`, `old_promotion_price`, `item_level`, `update_time`, `activity_dynamics`, `groupon`, `short_title`, `short_info`, `gross_margin`, `payprice`, `tax_active_price`, `tax_price`, `gross_mergin_price`)VALUES (126, 1000137, 148.00, 148.00, 0, -1, -1, 0, -1, '0', 0, 0, 0, 0, 0.00, 0.00, '', -1, 2017-01-09 11:04:17', NULL, 0, '', '', 6.00, 0.00, 0.00, 0.00, 0.00)
+失败信息：java.sql.SQLException: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '11:04:17', NULL, 0, '', '', 6.00, 0.00, 0.00, 0.00, 0.00)' at line 1 Query: INSERT INTO `promotion_items` (`promotion_id`, `sku`, `active_price`, `app_price`, `status`, `max_buy`, `day_limited`, `is_best`, `limit_stock`, `remark`, `user_id`, `department_id`, `order`, `recent_sale_num`, `recent_sale_amount`, `min_sale_amount`, `old_promotion_price`, `item_level`, `update_time`, `activity_dynamics`, `groupon`, `short_title`, `short_info`, `gross_margin`, `payprice`, `tax_active_price`, `tax_price`, `gross_mergin_price`)VALUES (126, 1000137, 148.00, 148.00, 0, -1, -1, 0, -1, '0', 0, 0, 0, 0, 0.00, 0.00, '', -1, 2017-01-09 11:04:17', NULL, 0, '', '', 6.00, 0.00, 0.00, 0.00, 0.00) Parameters: []
+[11:04:17:419] [INFO] - com.mia.Method.Http.Httpclient.sendHttpPost(Httpclient.java:116) - 
+接口名称：https://api.miyabaobei.com/topcart/add
+请求报文：app_id=ios_test_id&auth_session=f059b32d2db4e2978c2fe248fc767175&dvc_id=miatest742bc49df0f34fa0bc986c9a6a31e8a8&params=nz4gHUtOJtm1ohiAeHBArF10SxLRadRP20BJjhHM8pTv2P5oqjbLmziV64M4XbaKfykl3WajLGixtUMULEm-1bBuBVzlWPKgxpbLP8-0zGTsZo7hRhEUnvmo0wPDfoOK8nnBBD-lXEH2f6efQdn4wsP6S0CQxkxOPYeXzIYxJbY=e0vXLAf9DhLCjCPHjA4F-PUwj8RW8hcCWM-QEZhEBGNRDMimaXBspQZOHwixhYUlJg17i_ioKsHrROhRkAUtj8-R32-pEe0m32D3UlR-XSZDL4xzwUUiUo2qEsyEtVQfsOHQehW-sMr8cRJDmc9nlceCEbywdZvy0PFQpZ-MAnM=&regid=miatest742bc49df0f34fa0bc986c9a6a31e8a8&session=148393105741292366&sign=40aafeec0fe5b99d11d1530b16cfd3d7&timestamp=1483931057&version=ios_5_0_0
+[11:04:17:545] [INFO] - com.mia.Method.Http.Httpclient.sendHttpPost(Httpclient.java:137) - 
+响应结果：{"content":2,"alert":"操作成功!","code":200,"msg":""}
+[11:04:17:546] [INFO] - com.mia.Test.Checkout.Checkout_Single_4.BeforeMethod(Checkout_Single_4.java:59) - Topcart_add响应结果： 200
+[11:04:17:560] [INFO] - com.mia.Method.Http.Httpclient.sendHttpPost(Httpclient.java:116) - 
+接口名称：https://api.miyabaobei.com/order/checkout
+请求报文：app_id=ios_test_id&auth_session=f059b32d2db4e2978c2fe248fc767175&dvc_id=miatest64ab5f08c3ae477db1bcba8f9a8213e4&params=VyFyBDmEFduenWsuVMue49SYtq9uOjh0WClhF-MQfvagqBITIZbt1oYGN7Bks35rg21SQIYSYMOEGPnJvG929vq2vyrTe9eKpJaiXou2uQfLfZ986QPClBOPiJn76O3WY0uRKIbJXus7dkXpneHvTzPRtfikbNy7QfjLScYyFNM=&regid=miatest64ab5f08c3ae477db1bcba8f9a8213e4&session=148393105755374854&sign=f7e07a5251aaa0fd0b84c48781f40de0&timestamp=1483931057&version=ios_5_0_0
+[11:04:17:819] [INFO] - com.mia.Method.Http.Httpclient.sendHttpPost(Httpclient.java:137) - 
+响应结果：{"content":{"top_tips":"","lock_balance":0,"default_address":{"city_id":"456","id":"501577","town_id":"43014","area_id":"4446","prov":"北京市","phone":"","area":"东城区","address":"三里屯酒吧","name":"列王","town":"内环到三环里","prov_id":"1","city":"北京市","mobile":"13888888888"},"show_invoice_desc":"","checkout_item":[{"sub_item":[{"warehouse_name":"","lottery_flag":"","sale_price":"200.00","is_gift":"0","item_time":"2017-01-09 11:03:35","spec_show":"","pic":"https://img01.miyabaobei.com/item/10/1000/1000137_normal_1.jpg","size":"SINGLE","is_spu":"0","market_price":"200.00","item_id":"1000137","name":"啾啾  CHUCHU 可爱妈妈玻璃宽口奶瓶 皇冠 160ml","quantity":2}],"sub_content":{"title":"蜜芽自营","has_hongkong_warehouse":0,"sub_pay_price":400,"sub_total_qty":2}}],"other_address":[{"city_id":"456","id":"501577","town_id":"43014","area_id":"4446","prov":"北京市","phone":"","area":"东城区","address":"三里屯酒吧","name":"列王","town":"内环到三环里","prov_id":"1","city":"北京市","mobile":"13888888888"}],"mia_tips":"","cart_total":{"total_coupon_price":0,"redbag_refresh":true,"sale_price":400,"total_redbag_price":"0","coupon_text":"使用优惠券","total_promotion_reduce":0,"reduce_price":0,"settlement_mode":0,"coupon_code":"","coupon_refresh":true,"freight_price":0,"freight_spec":"","redbag_text":"使用红包","coupon_spec":"","thrift_price":0,"total_market_price":400,"free_ship_flag":"","redbag_spec":"","quantity":2,"redbag_use_flag":true,"pay_price":400,"redbag_id":""},"total_balance":0,"type":"official","may_invoice":false,"promote_image":""},"request_id":"20170109110404da76cbde10e4d8b47d73de8e1c840f74","alert":"查询成功","code":200}
+[11:04:17:834] [INFO] - com.mia.Method.Http.Httpclient.sendHttpPost(Httpclient.java:116) - 
+接口名称：https://api.miyabaobei.com/cart/info
+请求报文：app_id=ios_test_id&auth_session=f059b32d2db4e2978c2fe248fc767175&dvc_id=miatestd7efc39e724e4cf2801eff836d4079ba&regid=miatestd7efc39e724e4cf2801eff836d4079ba&session=148393105782425982&sign=5c51e8fcfefac8263f6bed034ceca165&timestamp=1483931057&version=ios_5_0_0
+[11:04:17:969] [INFO] - com.mia.Method.Http.Httpclient.sendHttpPost(Httpclient.java:137) - 
+响应结果：{"content":{"cart_msgs":[],"invalid_item":[],"cart_total":{"select_quantity":2,"freight_tax_name":"不含运费和进口税","is_select_all":1,"settle_amount":400},"official_total":2,"row_infos":[{"is_valid_store":0,"store_id":0,"item_group":[{"items":[{"gift":"","warehouse_id":"40","spec_show":"","is_select":1,"store_id":"1192","item_quantity":2,"item_sale_price":"200.00","item_stock":99,"item_size":"SINGLE","id":"148393086533756","is_spu":"0","warehouse_type":"1","item_name":"啾啾  CHUCHU 可爱妈妈玻璃宽口奶瓶 皇冠 160ml","item_id":"1000137","item_market_price":"200.00","item_pic":"https://img.miyabaobei.com/item/10/1000/1000137_normal_2.jpg","promotion_tag":0}]}],"check_all":1,"store_name":"蜜芽自营","is_special":0}]},"alert":"操作成功!","code":200,"msg":""}
+[11:04:17:981] [INFO] - com.mia.Method.Method.JsonParam(Method.java:106) - 
+ ************业务参数**********
+{"row_id":"148393086533756"}
+ ************业务参数**********
+[11:04:17:989] [INFO] - com.mia.Method.Http.Httpclient.sendHttpPost(Httpclient.java:116) - 
+接口名称：https://api.miyabaobei.com/cart/delete
+请求报文：app_id=ios_test_id&auth_session=f059b32d2db4e2978c2fe248fc767175&dvc_id=miatestca3a7e3d4ecd47bb9eb43f8955823fbe&params=YX38_Z7wG5QjqFFvghY6LIbsHSb2f1Ipr05liaq7SWZqZMYliS5LsIJMksLG_odK3VXUseEwFjf6qzxyXvC41HvxGTBnCWb6EIFfWied6PorovnXKEzethKaIHxh_g3Xsr55vXpM2mnRwdisLAUFE4-g8QWg_gka8DoBDsIp78U=&regid=miatestca3a7e3d4ecd47bb9eb43f8955823fbe&session=148393105798263186&sign=c40c5ebf440547c016629e97eb463474&timestamp=1483931057&version=ios_5_0_0
+[11:04:18:111] [INFO] - com.mia.Method.Http.Httpclient.sendHttpPost(Httpclient.java:137) - 
+响应结果：{"content":{"cart_msgs":[],"invalid_item":[],"cart_total":{"select_quantity":0,"taxes_price":0,"is_select_all":0,"settle_amount":0,"thrift_price":0},"official_total":0,"row_infos":[]},"alert":"操作成功!","code":200,"msg":""}
+[11:06:02:465] [INFO] - com.mia.Test.Checkout.Checkout_Single_4.BeforeMethod(Checkout_Single_4.java:36) - 普通单品初始化数据
+[11:06:02:468] [INFO] - com.mia.data.Constant.<clinit>(Constant.java:55) - ***************************开始初始化用户基本信息****************************************************
+[11:06:02:566] [INFO] - com.mia.data.Constant.<clinit>(Constant.java:61) - 初始化Version：5_0_0
+[11:06:02:567] [INFO] - com.mia.data.Constant.<clinit>(Constant.java:66) - 初始化Channel：IOS
+[11:06:02:585] [INFO] - com.mia.data.Constant.<clinit>(Constant.java:71) - 初始化SingleItem_id：1000137
+[11:06:02:586] [INFO] - com.mia.data.Constant.<clinit>(Constant.java:81) - 初始化url：https://api.miyabaobei.com/
+[11:06:02:587] [INFO] - com.mia.data.Constant.<clinit>(Constant.java:87) - 初始化versionId：ios_5_0_0
+[11:06:02:588] [INFO] - com.mia.data.Constant.<clinit>(Constant.java:89) - 初始化channel：IOS
+[11:06:02:588] [INFO] - com.mia.data.Constant.<clinit>(Constant.java:91) - 初始化app_id：ios_test_id
+[11:06:02:588] [INFO] - com.mia.data.Constant.<clinit>(Constant.java:93) - 初始化secret：MIYABABY_IOS
+[11:06:02:930] [INFO] - com.mia.Method.Http.Httpclient.sendHttpPost(Httpclient.java:116) - 
+接口名称：https://api.miyabaobei.com/account/login/
+请求报文：app_id=ios_test_id&auth_session=&dvc_id=miatestefa26a35467b47299b3920032364fdda&params=F-WLleZPPIVBHOukPZhdCaAUiEjjHWKg0xp8H9x5lI_9UEdn69CsDGIp8JQER1o2otirWuUDB7D_Z0s2ejAWhnOFE6zfTJW8QyFBfQet9lUyei0ReJweV9KJQBeAoMNzBjs5mN7U9D5dFQCr1QrIadhTzR_TuICL11m-rjWrpI8=IycpxDRbU10AQHEpcH2Rr8u_cMzkW4t1juKC1UIA5xSU0ZC6-NrkF8rJNvOAoLdvk5_ha3gIN1ehbRgW_hoH2kaltESQDIez5gdWAXH7Dt9zaon5yuhWGIQMZqTvaGezcmSu1B1SeBfC84QxvgVNLYdY75-TiJPCdYk2Ap4iO84=&regid=miatestefa26a35467b47299b3920032364fdda&session=148393116259217659&sign=e99e19b323ff4cf83c8ab1d0ac330351&timestamp=1483931162&version=ios_5_0_0
+[11:06:03:247] [INFO] - com.mia.Method.Http.Httpclient.sendHttpPost(Httpclient.java:137) - 
+响应结果：{"content":{"cell_phone":"18201049123","child_nickname":"111111","consume_money":"0.00","icon":"","status":"1","nickname":"miya182****9123","user_status":"1","login_platform":"miya","child_birth_day":"2014-09-02","level_id":1,"is_id_verified":0,"child_age":"2岁4个月","is_cell_verified":"1","username":"miya182****9123","level":"小蜜粉","create_date":"2015-11-17 11:47:28","auth_session":"c319071881e04452a5cf0b94d9c50f2b","child_sex":"1","userblockname":"miya182****9123","user_id":1508762,"mibean_level":"1","level_number":"Lv.0","child_age_info":{"month":"4","year":"2","day":"7","type":"age"}},"alert":"操作成功!","code":200,"msg":""}
+[11:06:03:249] [INFO] - com.mia.data.Constant.<clinit>(Constant.java:134) - 初始化userid：1508762
+[11:06:03:250] [INFO] - com.mia.data.Constant.<clinit>(Constant.java:135) - 初始化auth_session：c319071881e04452a5cf0b94d9c50f2b
+[11:06:03:250] [INFO] - com.mia.data.Constant.<clinit>(Constant.java:141) - ***************************初始化用户基本信息结束****************************************************
+[11:06:03:755] [INFO] - com.mia.Method.Http.Httpclient.sendHttpPost(Httpclient.java:116) - 
+接口名称：https://api.miyabaobei.com/topcart/add
+请求报文：app_id=ios_test_id&auth_session=c319071881e04452a5cf0b94d9c50f2b&dvc_id=miatest35b176bc7a444f03b64e5e44f2c6f74b&params=DehNtZUzs9Mdi0KMyU_Z6SUNQkjkkr0GcN6AM5d69WBp8h4B4c1SEeQevFt5QDPHY8aDicFdk0RBoFyywSQbvy9eGT0MMLZgluVqgzJioS7LTTFdMciiSJY53zJjZOakvaoJqPpg8dNTSYoBjgfWGQfgtga1_2bGzdaPCNOS-PE=lJ5ublEk8euRMV1RKEvWeG6WOUFrJWR7BQGpbNVC5IpYRLE-VP4MMzRNcHlJ-kbdtN3Le5k3Gy_iso8TTyWs80ns5kcxaI0SK5OC4C8WHznEe5Gg8cg8-HicBRM2wDst7VfesWxe85NkDA0ax0r7fwxWUSab880XR2mAtROjOxY=&regid=miatest35b176bc7a444f03b64e5e44f2c6f74b&session=148393116374955923&sign=ce59106b7d7fdaed003067c818fef171&timestamp=1483931163&version=ios_5_0_0
+[11:06:03:877] [INFO] - com.mia.Method.Http.Httpclient.sendHttpPost(Httpclient.java:137) - 
+响应结果：{"content":1,"alert":"操作成功!","code":200,"msg":""}
+[11:06:03:878] [INFO] - com.mia.Test.Checkout.Checkout_Single_4.BeforeMethod(Checkout_Single_4.java:59) - Topcart_add响应结果： 200
+[11:06:03:889] [INFO] - com.mia.Method.Http.Httpclient.sendHttpPost(Httpclient.java:116) - 
+接口名称：https://api.miyabaobei.com/order/checkout
+请求报文：app_id=ios_test_id&auth_session=c319071881e04452a5cf0b94d9c50f2b&dvc_id=miatest2f01318b9e904356bde77126d32cd529&params=efZn1NpFlAOESYRi3n7UQw_mSWrSQ-saVx5jMOB6MIeqWgMIrkyHJxdMS8OjLMvZz0ZoPcaME9s8Hel9UAhtEI9S29d9V-EgBLKwcV_SHRdUNIMfuDFtBnJJDou6WAvqflri18I-A6BuMgz7Fv0okuGg0ddIpJmk724pXjOHGMs=&regid=miatest2f01318b9e904356bde77126d32cd529&session=148393116388486379&sign=1941be1ba0c08c196b15a6776eb256c3&timestamp=1483931163&version=ios_5_0_0
+[11:06:04:160] [INFO] - com.mia.Method.Http.Httpclient.sendHttpPost(Httpclient.java:137) - 
+响应结果：{"content":{"top_tips":"","lock_balance":0,"default_address":{"city_id":"456","id":"501577","town_id":"43014","area_id":"4446","prov":"北京市","phone":"","area":"东城区","address":"三里屯酒吧","name":"列王","town":"内环到三环里","prov_id":"1","city":"北京市","mobile":"13888888888"},"show_invoice_desc":"","checkout_item":[{"sub_item":[{"warehouse_name":"","lottery_flag":"","sale_price":"200.00","is_gift":"0","item_time":"2017-01-09 11:05:22","spec_show":"","pic":"https://img01.miyabaobei.com/item/10/1000/1000137_normal_1.jpg","size":"SINGLE","is_spu":"0","market_price":"200.00","item_id":"1000137","name":"啾啾  CHUCHU 可爱妈妈玻璃宽口奶瓶 皇冠 160ml","quantity":1}],"sub_content":{"title":"蜜芽自营","has_hongkong_warehouse":0,"sub_pay_price":200,"sub_total_qty":1}}],"other_address":[{"city_id":"456","id":"501577","town_id":"43014","area_id":"4446","prov":"北京市","phone":"","area":"东城区","address":"三里屯酒吧","name":"列王","town":"内环到三环里","prov_id":"1","city":"北京市","mobile":"13888888888"}],"mia_tips":"","cart_total":{"total_coupon_price":0,"redbag_refresh":true,"sale_price":200,"total_redbag_price":"0","coupon_text":"使用优惠券","total_promotion_reduce":0,"reduce_price":0,"settlement_mode":0,"coupon_code":"","coupon_refresh":true,"freight_price":0,"freight_spec":"","redbag_text":"使用红包","coupon_spec":"","thrift_price":0,"total_market_price":200,"free_ship_flag":"","redbag_spec":"","quantity":1,"redbag_use_flag":true,"pay_price":200,"redbag_id":""},"total_balance":0,"type":"official","may_invoice":false,"promote_image":""},"request_id":"201701091105503b1a3827e0f8a98011f23eb42c3693bb","alert":"查询成功","code":200}
+[11:06:04:173] [INFO] - com.mia.Method.Http.Httpclient.sendHttpPost(Httpclient.java:116) - 
+接口名称：https://api.miyabaobei.com/cart/info
+请求报文：app_id=ios_test_id&auth_session=c319071881e04452a5cf0b94d9c50f2b&dvc_id=miatestf49fd22de6ae4bd4a6025fa9df8f85ac&regid=miatestf49fd22de6ae4bd4a6025fa9df8f85ac&session=148393116416530665&sign=7fac683cb3b9d2347be49ed194f62893&timestamp=1483931164&version=ios_5_0_0
+[11:06:04:297] [INFO] - com.mia.Method.Http.Httpclient.sendHttpPost(Httpclient.java:137) - 
+响应结果：{"content":{"cart_msgs":[],"invalid_item":[],"cart_total":{"select_quantity":1,"freight_tax_name":"不含运费和进口税","is_select_all":1,"settle_amount":200},"official_total":1,"row_infos":[{"is_valid_store":0,"store_id":0,"item_group":[{"items":[{"gift":"","warehouse_id":"40","spec_show":"","is_select":1,"store_id":"1192","item_quantity":1,"item_sale_price":"200.00","item_stock":99,"item_size":"SINGLE","id":"148393112227920","is_spu":"0","warehouse_type":"1","item_name":"啾啾  CHUCHU 可爱妈妈玻璃宽口奶瓶 皇冠 160ml","item_id":"1000137","item_market_price":"200.00","item_pic":"https://img.miyabaobei.com/item/10/1000/1000137_normal_2.jpg","promotion_tag":0}]}],"check_all":1,"store_name":"蜜芽自营","is_special":0}]},"alert":"操作成功!","code":200,"msg":""}
+[11:06:04:310] [INFO] - com.mia.Method.Method.JsonParam(Method.java:106) - 
+ ************业务参数**********
+{"row_id":"148393112227920"}
+ ************业务参数**********
+[11:06:04:315] [INFO] - com.mia.Method.Http.Httpclient.sendHttpPost(Httpclient.java:116) - 
+接口名称：https://api.miyabaobei.com/cart/delete
+请求报文：app_id=ios_test_id&auth_session=c319071881e04452a5cf0b94d9c50f2b&dvc_id=miatesta7152694216c406681053a44464e062c&params=X3NRQGMwG-gMcp99SzTn-rRJ3ugExMSxzEnzpVtAG8LcnuzsLfkHEhTJLmA_SI3KnbpspQH2hoCEpcuYoiRk0cIIl9jwzyi_YI8PV5TzjprfyOE6NE5m_Ji2BX3fAAmBw1YHxwmV8V7kFUKf8qmYGCs3Hy7xPl2VX729s0HiSzE=&regid=miatesta7152694216c406681053a44464e062c&session=148393116431064644&sign=fa3fbbe1a2a4a1b5bf12c1d63342d65e&timestamp=1483931164&version=ios_5_0_0
+[11:06:04:409] [INFO] - com.mia.Method.Http.Httpclient.sendHttpPost(Httpclient.java:137) - 
+响应结果：{"content":{"cart_msgs":[],"invalid_item":[],"cart_total":{"select_quantity":0,"taxes_price":0,"is_select_all":0,"settle_amount":0,"thrift_price":0},"official_total":0,"row_infos":[]},"alert":"操作成功!","code":200,"msg":""}
+[11:09:43:425] [INFO] - com.mia.Test.Checkout.Checkout_Single_4.BeforeMethod(Checkout_Single_4.java:36) - 普通单品初始化数据
+[11:09:43:427] [INFO] - com.mia.data.Constant.<clinit>(Constant.java:55) - ***************************开始初始化用户基本信息****************************************************
+[11:09:43:534] [INFO] - com.mia.data.Constant.<clinit>(Constant.java:61) - 初始化Version：5_0_0
+[11:09:43:536] [INFO] - com.mia.data.Constant.<clinit>(Constant.java:66) - 初始化Channel：IOS
+[11:09:43:558] [INFO] - com.mia.data.Constant.<clinit>(Constant.java:71) - 初始化SingleItem_id：1000137
+[11:09:43:559] [INFO] - com.mia.data.Constant.<clinit>(Constant.java:81) - 初始化url：https://api.miyabaobei.com/
+[11:09:43:560] [INFO] - com.mia.data.Constant.<clinit>(Constant.java:87) - 初始化versionId：ios_5_0_0
+[11:09:43:560] [INFO] - com.mia.data.Constant.<clinit>(Constant.java:89) - 初始化channel：IOS
+[11:09:43:561] [INFO] - com.mia.data.Constant.<clinit>(Constant.java:91) - 初始化app_id：ios_test_id
+[11:09:43:561] [INFO] - com.mia.data.Constant.<clinit>(Constant.java:93) - 初始化secret：MIYABABY_IOS
+[11:09:43:874] [INFO] - com.mia.Method.Http.Httpclient.sendHttpPost(Httpclient.java:116) - 
+接口名称：https://api.miyabaobei.com/account/login/
+请求报文：app_id=ios_test_id&auth_session=&dvc_id=miatest7745a3346aee4144bc09ea6169474020&params=UWRzwIYAVbq0lL-DO1Grpehk5FBe0uW6NnlH5BB3m5k4p9Zq3_zkOlOEwr5sKLboTBXW1G8kqpE9TM8uAB8scsXwErVXvpN0i6okgbQEsWFFEv6rvCjvBXujAQFn_RLECQcZgQhwFz-OVzVIjRhCRdUI1aM0zFq3EiSjo5s8OOQ=MfV02d9aPum8lanr2VQ5_kfZDXbqfbWwo_t71CSW0yhz_X4_viQ_xkrfjGTlGEVWtOIQ7FJt_QAGyxwyFwRSkMQWb1dx-TzEdvZuqpvwLt0vByhSKh6kj_tmaYXW_JND1J9FkAD8zdPIZkTgYfSr0Eh9amc-t7QXqs_xh3aDfbA=&regid=miatest7745a3346aee4144bc09ea6169474020&session=148393138356450123&sign=d5ac2d1859b9ec3f0b032717a9c13fe7&timestamp=1483931383&version=ios_5_0_0
+[11:09:44:222] [INFO] - com.mia.Method.Http.Httpclient.sendHttpPost(Httpclient.java:137) - 
+响应结果：{"content":{"cell_phone":"18201049123","child_nickname":"111111","consume_money":"0.00","icon":"","status":"1","nickname":"miya182****9123","user_status":"1","login_platform":"miya","child_birth_day":"2014-09-02","level_id":1,"is_id_verified":0,"child_age":"2岁4个月","is_cell_verified":"1","username":"miya182****9123","level":"小蜜粉","create_date":"2015-11-17 11:47:28","auth_session":"f7665f0dcca872cbd0677720316ef993","child_sex":"1","userblockname":"miya182****9123","user_id":1508762,"mibean_level":"1","level_number":"Lv.0","child_age_info":{"month":"4","year":"2","day":"7","type":"age"}},"alert":"操作成功!","code":200,"msg":""}
+[11:09:44:224] [INFO] - com.mia.data.Constant.<clinit>(Constant.java:134) - 初始化userid：1508762
+[11:09:44:224] [INFO] - com.mia.data.Constant.<clinit>(Constant.java:135) - 初始化auth_session：f7665f0dcca872cbd0677720316ef993
+[11:09:44:225] [INFO] - com.mia.data.Constant.<clinit>(Constant.java:141) - ***************************初始化用户基本信息结束****************************************************
+[11:09:44:970] [INFO] - com.mia.Method.Http.Httpclient.sendHttpPost(Httpclient.java:116) - 
+接口名称：https://api.miyabaobei.com/topcart/add
+请求报文：app_id=ios_test_id&auth_session=f7665f0dcca872cbd0677720316ef993&dvc_id=miatest89a84bc0d1c741c3bfee3910fd6bcdb3&params=W7LkpgC19iysaxJD2n6bhXV_qvl8jinacfYjcSJDZfYTr13A-pyHKHKKSpvu-Q2zLN7ClrQWg1KT-U6MXn9DN54UkBCbcvFsyUaU639aMLNNSBksGu7FqTcbS4Q48EjHiE_BoFGW0Kk6TDgHL83k-ZVLMaE4Itq0k6rVeIWiJbI=J8pcENLTKrWnhuc8KOzp1ButxOnv-n9jHRg_sq52TCfTjYrnTH1yMuJYa7Tyo0y5w56wFw_la9H4G3m8YkdijD7XN3c11wwp76i3s9HMsS1lO7SKOEKAkYI_jGyxtOZveRpo9Pmzh-eyuRtpu51Jo_3ejDlQH9dORCdxMEQ9NLM=&regid=miatest89a84bc0d1c741c3bfee3910fd6bcdb3&session=148393138496411874&sign=e9a76f736ffffcf71774c5c5508f7507&timestamp=1483931384&version=ios_5_0_0
+[11:09:45:125] [INFO] - com.mia.Method.Http.Httpclient.sendHttpPost(Httpclient.java:137) - 
+响应结果：{"content":2,"alert":"操作成功!","code":200,"msg":""}
+[11:09:45:126] [INFO] - com.mia.Test.Checkout.Checkout_Single_4.BeforeMethod(Checkout_Single_4.java:59) - Topcart_add响应结果： 200
+[11:09:45:137] [INFO] - com.mia.Method.Http.Httpclient.sendHttpPost(Httpclient.java:116) - 
+接口名称：https://api.miyabaobei.com/order/checkout
+请求报文：app_id=ios_test_id&auth_session=f7665f0dcca872cbd0677720316ef993&dvc_id=miatest854abd5a11364eebb36ac493c27e3d41&params=gn9m4z8LJh8ido-vJ-z21vGlaxRTAQQqkz3ys1zWjuG5uVAOe5ZVCsrBwT6PHSuGLLoJnX25QSaM1McP7bPTy312HAoprS-LG-mQWrQ3khN_6Qtljmth84TNrWOl-ucQV2SHj-MW-aiR-wKhQ95_M3wLl6PHDlvLKjwk5x6_Y1w=&regid=miatest854abd5a11364eebb36ac493c27e3d41&session=148393138513101712&sign=bbd7b88faa9840c4e8e09b5f4969c131&timestamp=1483931385&version=ios_5_0_0
+[11:09:45:420] [INFO] - com.mia.Method.Http.Httpclient.sendHttpPost(Httpclient.java:137) - 
+响应结果：{"content":{"top_tips":"","lock_balance":0,"default_address":{"city_id":"456","id":"501577","town_id":"43014","area_id":"4446","prov":"北京市","phone":"","area":"东城区","address":"三里屯酒吧","name":"列王","town":"内环到三环里","prov_id":"1","city":"北京市","mobile":"13888888888"},"show_invoice_desc":"","checkout_item":[{"sub_item":[{"warehouse_name":"","lottery_flag":"","sale_price":"200.00","is_gift":"0","item_time":"2017-01-09 11:09:03","spec_show":"","pic":"https://img03.miyabaobei.com/item/10/1000/1000137_normal_1.jpg","size":"SINGLE","is_spu":"0","market_price":"200.00","item_id":"1000137","name":"啾啾  CHUCHU 可爱妈妈玻璃宽口奶瓶 皇冠 160ml","quantity":2}],"sub_content":{"title":"蜜芽自营","has_hongkong_warehouse":0,"sub_pay_price":400,"sub_total_qty":2}}],"other_address":[{"city_id":"456","id":"501577","town_id":"43014","area_id":"4446","prov":"北京市","phone":"","area":"东城区","address":"三里屯酒吧","name":"列王","town":"内环到三环里","prov_id":"1","city":"北京市","mobile":"13888888888"}],"mia_tips":"","cart_total":{"total_coupon_price":0,"redbag_refresh":true,"sale_price":400,"total_redbag_price":"0","coupon_text":"使用优惠券","total_promotion_reduce":0,"reduce_price":0,"settlement_mode":0,"coupon_code":"","coupon_refresh":true,"freight_price":0,"freight_spec":"","redbag_text":"使用红包","coupon_spec":"","thrift_price":0,"total_market_price":400,"free_ship_flag":"","redbag_spec":"","quantity":2,"redbag_use_flag":true,"pay_price":400,"redbag_id":""},"total_balance":0,"type":"official","may_invoice":false,"promote_image":""},"request_id":"20170109110931535ff66416e5fbcc08e6adab579c0578","alert":"查询成功","code":200}
+[11:09:45:435] [INFO] - com.mia.Method.Http.Httpclient.sendHttpPost(Httpclient.java:116) - 
+接口名称：https://api.miyabaobei.com/cart/info
+请求报文：app_id=ios_test_id&auth_session=f7665f0dcca872cbd0677720316ef993&dvc_id=miatest1dea5add46ca400f8483a9aefd190872&regid=miatest1dea5add46ca400f8483a9aefd190872&session=148393138542414720&sign=6270ddf45d946b19543e39b07aac1209&timestamp=1483931385&version=ios_5_0_0
+[11:09:45:587] [INFO] - com.mia.Method.Http.Httpclient.sendHttpPost(Httpclient.java:137) - 
+响应结果：{"content":{"cart_msgs":[],"invalid_item":[],"cart_total":{"select_quantity":2,"freight_tax_name":"不含运费和进口税","is_select_all":1,"settle_amount":400},"official_total":2,"row_infos":[{"is_valid_store":0,"store_id":0,"item_group":[{"items":[{"gift":"","warehouse_id":"40","spec_show":"","is_select":1,"store_id":"1192","item_quantity":2,"item_sale_price":"200.00","item_stock":99,"item_size":"SINGLE","id":"148393121708772","is_spu":"0","warehouse_type":"1","item_name":"啾啾  CHUCHU 可爱妈妈玻璃宽口奶瓶 皇冠 160ml","item_id":"1000137","item_market_price":"200.00","item_pic":"https://img.miyabaobei.com/item/10/1000/1000137_normal_2.jpg","promotion_tag":0}]}],"check_all":1,"store_name":"蜜芽自营","is_special":0}]},"alert":"操作成功!","code":200,"msg":""}
+[11:09:45:619] [INFO] - com.mia.Method.Method.JsonParam(Method.java:106) - 
+ ************业务参数**********
+{"row_id":"148393121708772"}
+ ************业务参数**********
+[11:09:45:626] [INFO] - com.mia.Method.Http.Httpclient.sendHttpPost(Httpclient.java:116) - 
+接口名称：https://api.miyabaobei.com/cart/delete
+请求报文：app_id=ios_test_id&auth_session=f7665f0dcca872cbd0677720316ef993&dvc_id=miatestd4c7bb518e7e47c3b828555432d7b4f0&params=eluzAizCXm5ddIVQNVddFbKv6WLchyoMl6L8hz0pKgNHlWIRNwYMS0XsSI2ogERjrzUGYSO77rNQACnaZEEvrNi4Xr4pSQ_YH2jSw2TTPjQpJ1Y48h2TsdpKBcyJDjsFdwHSNVxMu5JlK9jEDDhriQP90P6Z6CTnK5z-_48Ojq8=&regid=miatestd4c7bb518e7e47c3b828555432d7b4f0&session=148393138562001850&sign=82698a4ce37311387cca0c3d5aae475d&timestamp=1483931385&version=ios_5_0_0
+[11:09:45:740] [INFO] - com.mia.Method.Http.Httpclient.sendHttpPost(Httpclient.java:137) - 
+响应结果：{"content":{"cart_msgs":[],"invalid_item":[],"cart_total":{"select_quantity":0,"taxes_price":0,"is_select_all":0,"settle_amount":0,"thrift_price":0},"official_total":0,"row_infos":[]},"alert":"操作成功!","code":200,"msg":""}
+[11:17:15:290] [INFO] - com.mia.Test.Checkout.Checkout_Single_4.BeforeMethod(Checkout_Single_4.java:36) - 普通单品初始化数据
+[11:17:15:292] [INFO] - com.mia.data.Constant.<clinit>(Constant.java:55) - ***************************开始初始化用户基本信息****************************************************
+[11:17:15:372] [INFO] - com.mia.data.Constant.<clinit>(Constant.java:61) - 初始化Version：5_0_0
+[11:17:15:373] [INFO] - com.mia.data.Constant.<clinit>(Constant.java:66) - 初始化Channel：IOS
+[11:17:15:390] [INFO] - com.mia.data.Constant.<clinit>(Constant.java:71) - 初始化SingleItem_id：1000137
+[11:17:15:391] [INFO] - com.mia.data.Constant.<clinit>(Constant.java:81) - 初始化url：https://api.miyabaobei.com/
+[11:17:15:392] [INFO] - com.mia.data.Constant.<clinit>(Constant.java:87) - 初始化versionId：ios_5_0_0
+[11:17:15:393] [INFO] - com.mia.data.Constant.<clinit>(Constant.java:89) - 初始化channel：IOS
+[11:17:15:393] [INFO] - com.mia.data.Constant.<clinit>(Constant.java:91) - 初始化app_id：ios_test_id
+[11:17:15:393] [INFO] - com.mia.data.Constant.<clinit>(Constant.java:93) - 初始化secret：MIYABABY_IOS
+[11:17:15:709] [INFO] - com.mia.Method.Http.Httpclient.sendHttpPost(Httpclient.java:116) - 
+接口名称：https://api.miyabaobei.com/account/login/
+请求报文：app_id=ios_test_id&auth_session=&dvc_id=miatestbfade52935de4ec19939b1db35286d24&params=Vf4fpmap3fHMS_8U_SQxcnl33G8tbW4tE67FP3ISC1E9cTqq7P02YFSn-YigkWa-2JoFgqvT-RU-LtvpwENCtHslvRVjcPvIO2aIAVxZpXWnMn3xKZNj3lX7zp5qbD-QQChd9mPxLB5wUYJ-q43-ZpI5Iafgk4Fn9Ba5h_xyd5Q=VpnUG6AD5rP5eWD2I5Y4mHDtskVRBr_JgySASYCIlIAwUZCbR6pGBdjAF_4Igvsv0hpPS3k2DBDzi7XGh0vYa4M8mdELgWbyRet57TLN1x7hjRHPIly2i7o7GunnzLe1CzZ50uStVqsBz54ADct1CprbCNYo8OZhXZQ2kQa9Puc=&regid=miatestbfade52935de4ec19939b1db35286d24&session=148393183539842138&sign=d50fa54534bd2e9e74e694e87e7131b2&timestamp=1483931835&version=ios_5_0_0
+[11:17:15:973] [INFO] - com.mia.Method.Http.Httpclient.sendHttpPost(Httpclient.java:137) - 
+响应结果：{"content":{"cell_phone":"18201049123","child_nickname":"111111","consume_money":"0.00","icon":"","status":"1","nickname":"miya182****9123","user_status":"1","login_platform":"miya","child_birth_day":"2014-09-02","level_id":1,"is_id_verified":0,"child_age":"2岁4个月","is_cell_verified":"1","username":"miya182****9123","level":"小蜜粉","create_date":"2015-11-17 11:47:28","auth_session":"87261b66ceefc5f753104e30ea8da284","child_sex":"1","userblockname":"miya182****9123","user_id":1508762,"mibean_level":"1","level_number":"Lv.0","child_age_info":{"month":"4","year":"2","day":"7","type":"age"}},"alert":"操作成功!","code":200,"msg":""}
+[11:17:15:975] [INFO] - com.mia.data.Constant.<clinit>(Constant.java:134) - 初始化userid：1508762
+[11:17:15:975] [INFO] - com.mia.data.Constant.<clinit>(Constant.java:135) - 初始化auth_session：87261b66ceefc5f753104e30ea8da284
+[11:17:15:976] [INFO] - com.mia.data.Constant.<clinit>(Constant.java:141) - ***************************初始化用户基本信息结束****************************************************
+[11:17:16:439] [INFO] - com.mia.Method.Http.Httpclient.sendHttpPost(Httpclient.java:116) - 
+接口名称：https://api.miyabaobei.com/topcart/add
+请求报文：app_id=ios_test_id&auth_session=87261b66ceefc5f753104e30ea8da284&dvc_id=miatest707de31d1ccb42888ced7645ab54d0fc&params=OzK5m5lqoeCgCDS0QsTpBELpciQPd3XTYcJsM3-VLMlGBei594eQ3_qJKWNwDpu3DKTvc_-CeO_mLZeIdL45-E_0tT2iCJp6j4sE9y97H5CCyJJKw486Ik7Ew-vdlsvoycLeyKEhY8Jd6mliV4nouF4ryGDhiXoVHNwgTsD2Mf8=A_6S8rIqVtRh6cWbYYkWOrFUBvzwk_FXq-lDzuUWUiVyuPaVWT6MbvHpc53bBeBRaN15PYdPyxvoJUyD_O5HhomgyriCcny6kHWOx35F8U0LADRee7yLjO7nokO12ePhyyULMJuG8nnas-ptSloMk9RZeAiHvULrjee15IUAJVE=&regid=miatest707de31d1ccb42888ced7645ab54d0fc&session=148393183643389513&sign=dff2b2157d3825be8a853d4067643d94&timestamp=1483931836&version=ios_5_0_0
+[11:17:16:581] [INFO] - com.mia.Method.Http.Httpclient.sendHttpPost(Httpclient.java:137) - 
+响应结果：{"content":2,"alert":"操作成功!","code":200,"msg":""}
+[11:17:16:582] [INFO] - com.mia.Test.Checkout.Checkout_Single_4.BeforeMethod(Checkout_Single_4.java:59) - Topcart_add响应结果： 200
+[11:17:16:595] [INFO] - com.mia.Method.Http.Httpclient.sendHttpPost(Httpclient.java:116) - 
+接口名称：https://api.miyabaobei.com/order/checkout
+请求报文：app_id=ios_test_id&auth_session=87261b66ceefc5f753104e30ea8da284&dvc_id=miatest1a05cb716c5d4a5bacfc914d3c480a4c&params=aX20eBosz5KuRGM4RUopWkffhPRtxDNZcWSgEiPWUMPg0d9xXtyDUovV_gm5umTc8420th1fQpakogGbKLbggYeyuzklmLGSVRDpP6xCqHz5SX4gEQ-g_Vx2gScD6ajtkmQD4i5_b-lD5ky76MZsnUOoIhdVdbABUSR-vOS1kcg=&regid=miatest1a05cb716c5d4a5bacfc914d3c480a4c&session=148393183659020281&sign=b4129f94dd2463649d94a12e5df339cc&timestamp=1483931836&version=ios_5_0_0
+[11:17:16:853] [INFO] - com.mia.Method.Http.Httpclient.sendHttpPost(Httpclient.java:137) - 
+响应结果：{"content":{"top_tips":"","lock_balance":0,"default_address":{"city_id":"456","id":"501577","town_id":"43014","area_id":"4446","prov":"北京市","phone":"","area":"东城区","address":"三里屯酒吧","name":"列王","town":"内环到三环里","prov_id":"1","city":"北京市","mobile":"13888888888"},"show_invoice_desc":"","checkout_item":[{"sub_item":[{"warehouse_name":"","lottery_flag":"","sale_price":"200.00","is_gift":"0","item_time":"2017-01-09 11:16:34","spec_show":"","pic":"https://img04.miyabaobei.com/item/10/1000/1000137_normal_1.jpg","size":"SINGLE","is_spu":"0","market_price":"200.00","item_id":"1000137","name":"啾啾  CHUCHU 可爱妈妈玻璃宽口奶瓶 皇冠 160ml","quantity":2}],"sub_content":{"title":"蜜芽自营","has_hongkong_warehouse":0,"sub_pay_price":400,"sub_total_qty":2}}],"other_address":[{"city_id":"456","id":"501577","town_id":"43014","area_id":"4446","prov":"北京市","phone":"","area":"东城区","address":"三里屯酒吧","name":"列王","town":"内环到三环里","prov_id":"1","city":"北京市","mobile":"13888888888"}],"mia_tips":"","cart_total":{"total_coupon_price":0,"redbag_refresh":true,"sale_price":400,"total_redbag_price":"0","coupon_text":"使用优惠券","total_promotion_reduce":0,"reduce_price":0,"settlement_mode":0,"coupon_code":"","coupon_refresh":true,"freight_price":0,"freight_spec":"","redbag_text":"使用红包","coupon_spec":"","thrift_price":0,"total_market_price":400,"free_ship_flag":"","redbag_spec":"","quantity":2,"redbag_use_flag":true,"pay_price":400,"redbag_id":""},"total_balance":0,"type":"official","may_invoice":false,"promote_image":""},"request_id":"201701091117036b2cb26d3c44170338cc1e0482ddc3c7","alert":"查询成功","code":200}
+[11:17:16:872] [INFO] - com.mia.Method.Http.Httpclient.sendHttpPost(Httpclient.java:116) - 
+接口名称：https://api.miyabaobei.com/cart/info
+请求报文：app_id=ios_test_id&auth_session=87261b66ceefc5f753104e30ea8da284&dvc_id=miatest5073044ed7c64cafb3309a863a60aa61&regid=miatest5073044ed7c64cafb3309a863a60aa61&session=148393183685940383&sign=9126f363815512080f613fbecafb6c81&timestamp=1483931836&version=ios_5_0_0
+[11:17:17:000] [INFO] - com.mia.Method.Http.Httpclient.sendHttpPost(Httpclient.java:137) - 
+响应结果：{"content":{"cart_msgs":[],"invalid_item":[],"cart_total":{"select_quantity":2,"freight_tax_name":"不含运费和进口税","is_select_all":1,"settle_amount":400},"official_total":2,"row_infos":[{"is_valid_store":0,"store_id":0,"item_group":[{"items":[{"gift":"","warehouse_id":"40","spec_show":"","is_select":1,"store_id":"1192","item_quantity":2,"item_sale_price":"200.00","item_stock":99,"item_size":"SINGLE","id":"148393139122321","is_spu":"0","warehouse_type":"1","item_name":"啾啾  CHUCHU 可爱妈妈玻璃宽口奶瓶 皇冠 160ml","item_id":"1000137","item_market_price":"200.00","item_pic":"https://img.miyabaobei.com/item/10/1000/1000137_normal_2.jpg","promotion_tag":0}]}],"check_all":1,"store_name":"蜜芽自营","is_special":0}]},"alert":"操作成功!","code":200,"msg":""}
+[11:17:17:012] [INFO] - com.mia.Method.Method.JsonParam(Method.java:106) - 
+ ************业务参数**********
+{"row_id":"148393139122321"}
+ ************业务参数**********
+[11:17:17:018] [INFO] - com.mia.Method.Http.Httpclient.sendHttpPost(Httpclient.java:116) - 
+接口名称：https://api.miyabaobei.com/cart/delete
+请求报文：app_id=ios_test_id&auth_session=87261b66ceefc5f753104e30ea8da284&dvc_id=miateste579a838ed5d4cbf831423ecc02fad2c&params=W3L-mK0m7XW8lwr1DCAkqnV-1tVjCVIGuf3jnlVXVbieZx-4wKYPS5W6Zqq4OCSdj4FW1RIgTSYY2RtJJ_ut-q1wlfktp-oo4mtO3AeaL3BTVhovMfOkpUabCtbGIZJCVZkZrmpMnYe0UagkITy9EuQTlsFjVcBm2COQ8BwcbEc=&regid=miateste579a838ed5d4cbf831423ecc02fad2c&session=148393183701247794&sign=3917bf30fd02f3243897b43f51704e63&timestamp=1483931837&version=ios_5_0_0
+[11:17:17:110] [INFO] - com.mia.Method.Http.Httpclient.sendHttpPost(Httpclient.java:137) - 
+响应结果：{"content":{"cart_msgs":[],"invalid_item":[],"cart_total":{"select_quantity":0,"taxes_price":0,"is_select_all":0,"settle_amount":0,"thrift_price":0},"official_total":0,"row_infos":[]},"alert":"操作成功!","code":200,"msg":""}
+[11:19:15:360] [INFO] - com.mia.Test.Checkout.Checkout_Single_4.BeforeMethod(Checkout_Single_4.java:36) - 普通单品初始化数据
+[11:19:15:363] [INFO] - com.mia.data.Constant.<clinit>(Constant.java:55) - ***************************开始初始化用户基本信息****************************************************
+[11:19:15:448] [INFO] - com.mia.data.Constant.<clinit>(Constant.java:61) - 初始化Version：5_0_0
+[11:19:15:449] [INFO] - com.mia.data.Constant.<clinit>(Constant.java:66) - 初始化Channel：IOS
+[11:19:15:466] [INFO] - com.mia.data.Constant.<clinit>(Constant.java:71) - 初始化SingleItem_id：1000137
+[11:19:15:468] [INFO] - com.mia.data.Constant.<clinit>(Constant.java:81) - 初始化url：https://api.miyabaobei.com/
+[11:19:15:469] [INFO] - com.mia.data.Constant.<clinit>(Constant.java:87) - 初始化versionId：ios_5_0_0
+[11:19:15:469] [INFO] - com.mia.data.Constant.<clinit>(Constant.java:89) - 初始化channel：IOS
+[11:19:15:469] [INFO] - com.mia.data.Constant.<clinit>(Constant.java:91) - 初始化app_id：ios_test_id
+[11:19:15:470] [INFO] - com.mia.data.Constant.<clinit>(Constant.java:93) - 初始化secret：MIYABABY_IOS
+[11:19:15:772] [INFO] - com.mia.Method.Http.Httpclient.sendHttpPost(Httpclient.java:116) - 
+接口名称：https://api.miyabaobei.com/account/login/
+请求报文：app_id=ios_test_id&auth_session=&dvc_id=miatest7f01997a719045edab800b1502dfa9a3&params=eFjXjfS58_-5Z_g6NhmAuPG6R5wlALxuWr1Y1cCf_p9V7MMQ2QiGmIfRnm_baPemj4eKTe84-NxKhFvs6gKMua9LKC_o_nEturWWCv1QAaVHuWZpX6r9-bGgMty8-J-PqFbG6a0wxkrfdgagnEWpC775Rp4kx5sEfhlEVZvvDF4=oGZyR1htynyR9MK6Z40J09t-H-03MRgEwQk_3DkFHTcNW-IKzSlzssnWeo7z1cBowPKQj_D99DSLWhAIt4io2n1sc2q_w7-w7_Rc1PlkPU4Z--vg4LVaIqwrnF8t0lDLgPZjP6Z4KUgeIG7xHq4oPIP93tBHrJfdZZ18J20A0gM=&regid=miatest7f01997a719045edab800b1502dfa9a3&session=148393195547541586&sign=6bf5330b5d2f4693d509566d67b7a76b&timestamp=1483931955&version=ios_5_0_0
+[11:19:16:059] [INFO] - com.mia.Method.Http.Httpclient.sendHttpPost(Httpclient.java:137) - 
+响应结果：{"content":{"cell_phone":"18201049123","child_nickname":"111111","consume_money":"0.00","icon":"","status":"1","nickname":"miya182****9123","user_status":"1","login_platform":"miya","child_birth_day":"2014-09-02","level_id":1,"is_id_verified":0,"child_age":"2岁4个月","is_cell_verified":"1","username":"miya182****9123","level":"小蜜粉","create_date":"2015-11-17 11:47:28","auth_session":"2fd8ceb5851f2b3b2cfb3b8aec0f9325","child_sex":"1","userblockname":"miya182****9123","user_id":1508762,"mibean_level":"1","level_number":"Lv.0","child_age_info":{"month":"4","year":"2","day":"7","type":"age"}},"alert":"操作成功!","code":200,"msg":""}
+[11:19:16:061] [INFO] - com.mia.data.Constant.<clinit>(Constant.java:134) - 初始化userid：1508762
+[11:19:16:062] [INFO] - com.mia.data.Constant.<clinit>(Constant.java:135) - 初始化auth_session：2fd8ceb5851f2b3b2cfb3b8aec0f9325
+[11:19:16:063] [INFO] - com.mia.data.Constant.<clinit>(Constant.java:141) - ***************************初始化用户基本信息结束****************************************************
+[11:19:16:582] [INFO] - com.mia.Method.Http.Httpclient.sendHttpPost(Httpclient.java:116) - 
+接口名称：https://api.miyabaobei.com/topcart/add
+请求报文：app_id=ios_test_id&auth_session=2fd8ceb5851f2b3b2cfb3b8aec0f9325&dvc_id=miatest428a67e7bb9d4518851023e9d1688338&params=hRigNl_yItaHJRTeZsd3EcpexUU-WTQnm9X05qA3l_aaOuuSbAQNimssuuw-iSL7JsA5KskmyMadA6AN7G-lDSgP8SqhuhUFBgBa0yN3BEI_5qCiUH_M6thrSaQbAExwQ8eizD_BZ4RVVrgGux-DIEdM5Dl8PnBlzKvwjEzcqBo=j3SjK9AaQe_aPma2rS-G03H5nawozqLqvgX4NcYqgVCkdMble9mfVHXZ7qOONcloZDX-h2zFWjO3w9iyaHY6ssVJWSQBVzPWGH0pOis4GWnXxWoSEGa_GJ4YdmpT_h7lpQxdwZh6Epd__ufoiHuGFI5GaBwLZB6o4Wmyf4rCn88=&regid=miatest428a67e7bb9d4518851023e9d1688338&session=148393195657520100&sign=da4f5a7363556617f957b18adee9923e&timestamp=1483931956&version=ios_5_0_0
+[11:19:16:707] [INFO] - com.mia.Method.Http.Httpclient.sendHttpPost(Httpclient.java:137) - 
+响应结果：{"content":1,"alert":"操作成功!","code":200,"msg":""}
+[11:19:16:708] [INFO] - com.mia.Test.Checkout.Checkout_Single_4.BeforeMethod(Checkout_Single_4.java:59) - Topcart_add响应结果： 200
+[11:19:16:721] [INFO] - com.mia.Method.Http.Httpclient.sendHttpPost(Httpclient.java:116) - 
+接口名称：https://api.miyabaobei.com/order/checkout
+请求报文：app_id=ios_test_id&auth_session=2fd8ceb5851f2b3b2cfb3b8aec0f9325&dvc_id=miatest3f807216797042a5997ae90c16250cc8&params=oH1XzmvGLDwygVd-BrxcneIwTqvD9oEQU-r9NEABKvuhPe9H9qyCUppz2yFsivGKd2G7IYobrjNsJLVAewIDXzFU68YRqeg8NSZZeBTe8X7wutebG_44rNtuJFl81ungjAm0j8oQQcMVEQwWjKz95zBMXYZBbv3VTwgBgu3pZ2U=&regid=miatest3f807216797042a5997ae90c16250cc8&session=148393195671594497&sign=e6900e2779a06c2cc72575ecaf4ac2ca&timestamp=1483931956&version=ios_5_0_0
+[11:19:16:975] [INFO] - com.mia.Method.Http.Httpclient.sendHttpPost(Httpclient.java:137) - 
+响应结果：{"content":{"top_tips":"","lock_balance":0,"default_address":{"city_id":"456","id":"501577","town_id":"43014","area_id":"4446","prov":"北京市","phone":"","area":"东城区","address":"三里屯酒吧","name":"列王","town":"内环到三环里","prov_id":"1","city":"北京市","mobile":"13888888888"},"show_invoice_desc":"","checkout_item":[{"sub_item":[{"warehouse_name":"","lottery_flag":"","sale_price":"200.00","is_gift":"0","item_time":"2017-01-09 11:18:35","spec_show":"","pic":"https://img01.miyabaobei.com/item/10/1000/1000137_normal_1.jpg","size":"SINGLE","is_spu":"0","market_price":"200.00","item_id":"1000137","name":"啾啾  CHUCHU 可爱妈妈玻璃宽口奶瓶 皇冠 160ml","quantity":1}],"sub_content":{"title":"蜜芽自营","has_hongkong_warehouse":0,"sub_pay_price":200,"sub_total_qty":1}}],"other_address":[{"city_id":"456","id":"501577","town_id":"43014","area_id":"4446","prov":"北京市","phone":"","area":"东城区","address":"三里屯酒吧","name":"列王","town":"内环到三环里","prov_id":"1","city":"北京市","mobile":"13888888888"}],"mia_tips":"","cart_total":{"total_coupon_price":0,"redbag_refresh":true,"sale_price":200,"total_redbag_price":"0","coupon_text":"使用优惠券","total_promotion_reduce":0,"reduce_price":0,"settlement_mode":0,"coupon_code":"","coupon_refresh":true,"freight_price":0,"freight_spec":"","redbag_text":"使用红包","coupon_spec":"","thrift_price":0,"total_market_price":200,"free_ship_flag":"","redbag_spec":"","quantity":1,"redbag_use_flag":true,"pay_price":200,"redbag_id":""},"total_balance":0,"type":"official","may_invoice":false,"promote_image":""},"request_id":"20170109111903fca736eb980ff9275d2734874529d245","alert":"查询成功","code":200}
+[11:19:16:990] [INFO] - com.mia.Method.Http.Httpclient.sendHttpPost(Httpclient.java:116) - 
+接口名称：https://api.miyabaobei.com/cart/info
+请求报文：app_id=ios_test_id&auth_session=2fd8ceb5851f2b3b2cfb3b8aec0f9325&dvc_id=miatest57031fc9426c41398aa830260468a027&regid=miatest57031fc9426c41398aa830260468a027&session=148393195698203033&sign=ce149009403b7536ec2ad7fae82d7130&timestamp=1483931956&version=ios_5_0_0
+[11:19:17:174] [INFO] - com.mia.Method.Http.Httpclient.sendHttpPost(Httpclient.java:137) - 
+响应结果：{"content":{"cart_msgs":[],"invalid_item":[],"cart_total":{"select_quantity":1,"freight_tax_name":"不含运费和进口税","is_select_all":1,"settle_amount":200},"official_total":1,"row_infos":[{"is_valid_store":0,"store_id":0,"item_group":[{"full_diff_money":"再购30元，立享【满230减20】","items":[{"gift":"","warehouse_id":"40","spec_show":"","is_select":1,"store_id":"1192","item_quantity":1,"item_sale_price":"200.00","item_stock":99,"item_size":"SINGLE","id":"148393191511352","promotion_lists":[{"reduce_money":"20","preheating_time":"0000-00-00 00:00:00","department_id":"0","to_create_outlet":"0","warehouse_ids":"","n_item":"0","type":"full_reduce","id":"126","title":"海绵泡泡满199立减20元，可累计","icon_id":"0","discount_sign":"满减","limit_stock":"-1","to_create_special":"0","exten":"自动化测试==满减测试","app_url":"","price_limit":"no","is_preheating":"0","m_money":"0","full_money_type":"1","outlet_pattern":"0","cron_status":"0","promotion_ownership":"0","is_channel":"0","account_type":"0","supplier_id":"0","max_buy":"-1","status":"3","web_url":"","label_id":"1","full_money":"230","intro":"自动化测试==满减测试","discount":"0.00","shoppingcart_dimension":"1","pop_select_goods":"1","outlet_type":"0","update_time":"2017-01-09 11:16:36","end_time":"2019-12-11 10:00:00","create_time":"2014-11-02 16:12:04","start_time":"2016-12-04 10:00:00","outlet_id":"0","preheating_intro":"","is_support_pop":"-1","h5_url":"","day_limited":"-1","sent_pop":"0","promotion_force":""}],"is_spu":"0","warehouse_type":"1","item_name":"啾啾  CHUCHU 可爱妈妈玻璃宽口奶瓶 皇冠 160ml","item_id":"1000137","item_market_price":"200.00","item_pic":"https://img.miyabaobei.com/item/10/1000/1000137_normal_2.jpg","promotion_tag":"126"}],"show_coupon":0,"promotion":{"reduce_money":"20","preheating_time":"0000-00-00 00:00:00","department_id":"0","to_create_outlet":"0","warehouse_ids":"","n_item":"0","type":"full_reduce","is_valid":false,"id":"126","title":"海绵泡泡满199立减20元，可累计","icon_id":"0","discount_sign":"满减","limit_stock":"-1","to_create_special":"0","exten":"自动化测试==满减测试","app_url":"","price_limit":"no","is_preheating":"0","m_money":"0","full_money_type":"1","outlet_pattern":"0","cron_status":"0","promotion_ownership":"0","is_channel":"0","account_type":"0","supplier_id":"0","max_buy":"-1","status":"3","web_url":"","label_id":"1","full_money":"230","intro":"自动化测试==满减测试","discount":"0.00","pop_select_goods":"1","outlet_type":"0","update_time":"2017-01-09 11:16:36","end_time":"2019-12-11 10:00:00","create_time":"2014-11-02 16:12:04","start_time":"2016-12-04 10:00:00","outlet_id":"0","preheating_intro":"","is_support_pop":"-1","h5_url":"","day_limited":"-1","sent_pop":"0","promotion_force":""}}],"check_all":1,"store_name":"蜜芽自营","is_special":0}]},"alert":"操作成功!","code":200,"msg":""}
+[11:19:17:187] [INFO] - com.mia.Method.Method.JsonParam(Method.java:106) - 
+ ************业务参数**********
+{"row_id":"148393191511352"}
+ ************业务参数**********
+[11:19:17:194] [INFO] - com.mia.Method.Http.Httpclient.sendHttpPost(Httpclient.java:116) - 
+接口名称：https://api.miyabaobei.com/cart/delete
+请求报文：app_id=ios_test_id&auth_session=2fd8ceb5851f2b3b2cfb3b8aec0f9325&dvc_id=miatestca77e45ef8404780bff1c28797ae5d44&params=cAPWyE2jZp9Wsplo13U_YtLe5_v3OlukvVwFH1uZeFTS0gSSbAagr-g6YqoMp4wYj8Ooz8CidqdRxwIS_85rA_kEbjEUP4IsSS67nHY1dMwHvkNg4JlhhuLa2tIbhFk24GSH03YFPH9La7XVGy920TQv1f2q0DGoUD1d9DW5aMA=&regid=miatestca77e45ef8404780bff1c28797ae5d44&session=148393195718856496&sign=94dfc21f71e4af1669cc8d89d569d42f&timestamp=1483931957&version=ios_5_0_0
+[11:19:17:300] [INFO] - com.mia.Method.Http.Httpclient.sendHttpPost(Httpclient.java:137) - 
+响应结果：{"content":{"cart_msgs":[],"invalid_item":[],"cart_total":{"select_quantity":0,"taxes_price":0,"is_select_all":0,"settle_amount":0,"thrift_price":0},"official_total":0,"row_infos":[]},"alert":"操作成功!","code":200,"msg":""}
+[11:19:17:302] [INFO] - com.mia.Method.Method.JsonParam(Method.java:106) - 
+ ************业务参数**********
+{"row_id":"126"}
+ ************业务参数**********
+[11:19:17:317] [INFO] - com.mia.Method.Http.Httpclient.sendHttpPost(Httpclient.java:116) - 
+接口名称：https://api.miyabaobei.com/cart/delete
+请求报文：app_id=ios_test_id&auth_session=2fd8ceb5851f2b3b2cfb3b8aec0f9325&dvc_id=miatest539511ca109c4114855b76fef87243e0&params=RsyJV_hKNeaYcPsXg7npj8m2qL7CaYxfEJX8kDSJc8Yx0T5rKeTpGwDkeyJ4BIKWkbKGf2UCDtE2arK_ftaEUnqw28PQ3x4qOrJeH9Js8q9ZJZlUHOvOLG6XzQoKUM8sUxVS9UKvDhQIlLhelXkxrYVtMOVm2WYeXvR1UuJVg3o=&regid=miatest539511ca109c4114855b76fef87243e0&session=148393195730317274&sign=3de454212442998042de9235a583c82f&timestamp=1483931957&version=ios_5_0_0
+[11:19:17:434] [INFO] - com.mia.Method.Http.Httpclient.sendHttpPost(Httpclient.java:137) - 
+响应结果：{"content":{"cart_msgs":[],"invalid_item":[],"cart_total":{"select_quantity":0,"taxes_price":0,"is_select_all":0,"settle_amount":0,"thrift_price":0},"official_total":0,"row_infos":[]},"alert":"操作成功!","code":200,"msg":""}
+[11:19:17:435] [INFO] - com.mia.Method.Method.JsonParam(Method.java:106) - 
+ ************业务参数**********
+{"row_id":"126"}
+ ************业务参数**********
+[11:19:17:442] [INFO] - com.mia.Method.Http.Httpclient.sendHttpPost(Httpclient.java:116) - 
+接口名称：https://api.miyabaobei.com/cart/delete
+请求报文：app_id=ios_test_id&auth_session=2fd8ceb5851f2b3b2cfb3b8aec0f9325&dvc_id=miatestfd55da926a394bebb97a628a9aab00f6&params=Zp868LAvKJ-dukPrK_mEp3wSEA_uwB7pWrBpS9vL5ZA_BpwGtTIDnE5Qzr2TnwCqLuWG4iLlCcUP4V05Uz--3LixGwNEpLaPtZ9i7I9KsrgqZgr_zHcaAdXMao-e1akksJoR2kXdd6LjPtJjLTSDS6dGAIJbNjDT9i2Fa-p-_jM=&regid=miatestfd55da926a394bebb97a628a9aab00f6&session=148393195743541529&sign=f5071bc3488dbf4f64e69ffd0cf6c0a6&timestamp=1483931957&version=ios_5_0_0
+[11:19:17:535] [INFO] - com.mia.Method.Http.Httpclient.sendHttpPost(Httpclient.java:137) - 
+响应结果：{"content":{"cart_msgs":[],"invalid_item":[],"cart_total":{"select_quantity":0,"taxes_price":0,"is_select_all":0,"settle_amount":0,"thrift_price":0},"official_total":0,"row_infos":[]},"alert":"操作成功!","code":200,"msg":""}
+[17:50:47:681] [INFO] - com.mia.Test.Checkout.Checkout_Single_1.BeforeMethod(Checkout_Single_1.java:29) - 普通单品初始化数据
+[17:50:47:683] [INFO] - com.mia.data.Constant.<clinit>(Constant.java:56) - ***************************开始初始化用户基本信息****************************************************
+[17:50:47:774] [INFO] - com.mia.data.Constant.<clinit>(Constant.java:62) - 初始化Version：5_0_0
+[17:50:47:775] [INFO] - com.mia.data.Constant.<clinit>(Constant.java:67) - 初始化Channel：IOS
+[17:50:47:795] [INFO] - com.mia.data.Constant.<clinit>(Constant.java:72) - 初始化SingleItem_id：1000137
+[17:50:47:796] [INFO] - com.mia.data.Constant.<clinit>(Constant.java:82) - 初始化url：https://api.miyabaobei.com/
+[17:50:47:797] [INFO] - com.mia.data.Constant.<clinit>(Constant.java:88) - 初始化versionId：ios_5_0_0
+[17:50:47:798] [INFO] - com.mia.data.Constant.<clinit>(Constant.java:90) - 初始化channel：IOS
+[17:50:47:798] [INFO] - com.mia.data.Constant.<clinit>(Constant.java:92) - 初始化app_id：ios_test_id
+[17:50:47:799] [INFO] - com.mia.data.Constant.<clinit>(Constant.java:94) - 初始化secret：MIYABABY_IOS
+[17:50:48:122] [INFO] - com.mia.Method.Http.Httpclient.sendHttpPost(Httpclient.java:116) - 
+接口名称：https://api.miyabaobei.com/account/login/
+请求报文：app_id=ios_test_id&auth_session=&dvc_id=miatestbac006f8333e43f38060b03dcdd49014&params=ac3AIrSbQ-No_eWTzd1C1O1maOnveBBd6_uYPjBBCiO2S-z_Il7mqEhlb6EnRpd7bb6FPZGQ4Yn0Z_dUBqWJ2RF1pggVUbMcMZYLuB8tZxnHTUemqlgRbVr437MGYQkr6hi52BqcwROJ8Hr2T23_MmQSSq6MgVolgYL0pukL7hg=NPutufnN6tP-gufZvQYpwnPuP7tUt1hSqw9VOBqS5YvyfnxgcNDhJe_qaolklFTpmKqaJbfRRhbfk-M4j9FlzRyX4Pl5I09HX8ueMqbg7Yuy9NBGRiW-2h9OailBIMSmEZLEFr0zSMfl3bt4ktHngQVJyo1p78D1m9vjIfguJ34=&regid=miatestbac006f8333e43f38060b03dcdd49014&session=148395544780382825&sign=bcd9d75f97dabd9836dfff6543eaeccf&timestamp=1483955447&version=ios_5_0_0
+[17:50:48:387] [INFO] - com.mia.Method.Http.Httpclient.sendHttpPost(Httpclient.java:137) - 
+响应结果：{"content":{"cell_phone":"18201049123","child_nickname":"111111","consume_money":"0.00","icon":"","status":"1","nickname":"miya182****9123","user_status":"1","login_platform":"miya","child_birth_day":"2014-09-02","level_id":1,"is_id_verified":0,"child_age":"2岁4个月","is_cell_verified":"1","username":"miya182****9123","level":"小蜜粉","create_date":"2015-11-17 11:47:28","auth_session":"020f1fe93bbe5778060b79e44582d74f","child_sex":"1","userblockname":"miya182****9123","user_id":1508762,"mibean_level":"1","level_number":"Lv.0","child_age_info":{"month":"4","year":"2","day":"7","type":"age"}},"alert":"操作成功!","code":200,"msg":""}
+[17:50:48:389] [INFO] - com.mia.data.Constant.<clinit>(Constant.java:135) - 初始化userid：1508762
+[17:50:48:389] [INFO] - com.mia.data.Constant.<clinit>(Constant.java:136) - 初始化auth_session：020f1fe93bbe5778060b79e44582d74f
+[17:50:48:390] [INFO] - com.mia.data.Constant.<clinit>(Constant.java:142) - ***************************初始化用户基本信息结束****************************************************
+[17:50:48:773] [INFO] - com.mia.Method.Http.Httpclient.sendHttpPost(Httpclient.java:116) - 
+接口名称：https://api.miyabaobei.com/topcart/add
+请求报文：app_id=ios_test_id&auth_session=020f1fe93bbe5778060b79e44582d74f&dvc_id=miatestd660f467dd1c4f83988bcdbf627aa377&params=JnWpQYveW7tyG_i0poFvUy6Ik4AEnxnQdYg3MAPQ8s2Mbh8jwQ6pi7YFAcZ2EgbapWFh2vM4bfLJHdg_ReQeBM9eT1RmjoWzU7dUqUaDKe9F-8qYD_1hlTO0jTX78GnxHLM1G-CBFGoGpfUU-CNhgz01siYV4FwfaFV8nYcu9Lw=EbdJoZ8aasW8C9lbBeXXhuKhZpSN_m0dZCrHfQfHIqoiVqhU5C97piKAKcLjVOg6DMbdmeFqZ4JQT4w3HdOKih_owXISbR-szkaSOVMA6uAq2m40wK4PSSYTnSRMl6DxDZu7-RqwzHVPvedddA2qQt7htLHPBv0n9Lpaj8MBd9U=&regid=miatestd660f467dd1c4f83988bcdbf627aa377&session=148395544876616477&sign=860769230d510a77b44d5e589e375918&timestamp=1483955448&version=ios_5_0_0
+[17:50:49:081] [INFO] - com.mia.Method.Http.Httpclient.sendHttpPost(Httpclient.java:137) - 
+响应结果：{"content":3,"alert":"操作成功!","code":200,"msg":""}
+[17:50:49:082] [INFO] - com.mia.Test.Checkout.Checkout_Single_1.BeforeMethod(Checkout_Single_1.java:40) - Topcart_add响应结果： 200
+[17:50:49:087] [INFO] - com.mia.Report.TestngListener.onTestStart(TestngListener.java:18) - 
+**************************************************
+接口测试开始
+[17:50:49:093] [INFO] - com.mia.Method.Http.Httpclient.sendHttpPost(Httpclient.java:116) - 
+接口名称：https://api.miyabaobei.com/order/checkout
+请求报文：app_id=ios_test_id&auth_session=020f1fe93bbe5778060b79e44582d74f&dvc_id=miatest3727f82917ea44c1a705221639c00266&params=Foby8kjlr2fx91HrzFWSiEltna7ryFukxToyrp7rMQ88p6cfknCbeI02ue1ZMxHC7k7YtBxy26iM1Zs98yXMys-Tgef0us4nQrk7_RbX7SJgRuFF1l1e6hhtmymhtn0nGYmRJ_N8mLyOYm5vS1LBcwLW5UBHywiEcOeK31aCaC8=&regid=miatest3727f82917ea44c1a705221639c00266&session=148395544908805791&sign=7e0ea609ba3d1465f2cf5bcc05f208de&timestamp=1483955449&version=ios_5_0_0
+[17:50:49:536] [INFO] - com.mia.Method.Http.Httpclient.sendHttpPost(Httpclient.java:137) - 
+响应结果：{"content":{"top_tips":"","lock_balance":0,"default_address":{"city_id":"456","id":"501577","town_id":"43014","area_id":"4446","prov":"北京市","phone":"","area":"东城区","address":"三里屯酒吧","name":"列王","town":"内环到三环里","prov_id":"1","city":"北京市","mobile":"13888888888"},"show_invoice_desc":"","checkout_item":[{"sub_item":[{"warehouse_name":"","lottery_flag":"","sale_price":"200.00","is_gift":"0","item_time":"2017-01-09 17:50:07","spec_show":"","pic":"https://img02.miyabaobei.com/item/10/1000/1000137_normal_1.jpg","size":"SINGLE","is_spu":"0","market_price":"200.00","item_id":"1000137","name":"啾啾  CHUCHU 可爱妈妈玻璃宽口奶瓶 皇冠 160ml","quantity":3}],"sub_content":{"title":"蜜芽自营","has_hongkong_warehouse":0,"sub_pay_price":600,"sub_total_qty":3}}],"other_address":[{"city_id":"456","id":"501577","town_id":"43014","area_id":"4446","prov":"北京市","phone":"","area":"东城区","address":"三里屯酒吧","name":"列王","town":"内环到三环里","prov_id":"1","city":"北京市","mobile":"13888888888"}],"mia_tips":"","cart_total":{"total_coupon_price":0,"redbag_refresh":true,"sale_price":600,"total_redbag_price":"0","coupon_text":"使用优惠券","total_promotion_reduce":40,"reduce_price":40,"settlement_mode":0,"coupon_code":"","coupon_refresh":true,"freight_price":0,"freight_spec":"","redbag_text":"使用红包","coupon_spec":"","thrift_price":0,"total_market_price":600,"free_ship_flag":"","redbag_spec":"","quantity":3,"redbag_use_flag":true,"pay_price":560,"redbag_id":""},"total_balance":0,"type":"official","may_invoice":false,"promote_image":""},"request_id":"20170109175035b0377b0bed1e8edbd1b202b774b4fa1d","alert":"查询成功","code":200}
+[17:50:49:539] [INFO] - com.mia.Report.TestngListener.onTestSuccess(TestngListener.java:46) - 
+用例执行成功
+**************************************************
+
+[17:50:49:549] [INFO] - com.mia.Method.Http.Httpclient.sendHttpPost(Httpclient.java:116) - 
+接口名称：https://api.miyabaobei.com/cart/info
+请求报文：app_id=ios_test_id&auth_session=020f1fe93bbe5778060b79e44582d74f&dvc_id=miatestcd991efb737746cf93263d70b53da743&regid=miatestcd991efb737746cf93263d70b53da743&session=148395544954050779&sign=71e7d8d8eb3a0e71dfcc98a095fe21f1&timestamp=1483955449&version=ios_5_0_0
+[17:50:49:684] [INFO] - com.mia.Method.Http.Httpclient.sendHttpPost(Httpclient.java:137) - 
+响应结果：{"content":{"cart_msgs":[],"invalid_item":[],"cart_total":{"select_quantity":3,"freight_tax_name":"不含运费和进口税","is_select_all":1,"thrift_name":"已减","settle_amount":560,"thrift_price":40},"official_total":3,"row_infos":[{"is_valid_store":0,"store_id":0,"item_group":[{"full_diff_money":"已减40，再购90元，立享【满690减60】","items":[{"gift":"","warehouse_id":"40","spec_show":"","is_select":1,"store_id":"1192","item_quantity":3,"item_sale_price":"200.00","item_stock":99,"item_size":"SINGLE","id":"148393221741363","promotion_lists":[{"reduce_money":"20","preheating_time":"0000-00-00 00:00:00","department_id":"0","to_create_outlet":"0","warehouse_ids":"","n_item":"0","type":"full_reduce","id":"126","title":"海绵泡泡满199立减20元，可累计","icon_id":"0","discount_sign":"满减","limit_stock":"-1","to_create_special":"0","exten":"自动化测试==满减测试","app_url":"","price_limit":"no","is_preheating":"0","m_money":"0","full_money_type":"1","outlet_pattern":"0","cron_status":"0","promotion_ownership":"0","is_channel":"0","account_type":"0","supplier_id":"0","max_buy":"-1","status":"3","web_url":"","label_id":"1","full_money":"230","intro":"自动化测试==满减测试","discount":"0.00","shoppingcart_dimension":"1","pop_select_goods":"1","outlet_type":"0","update_time":"2017-01-09 11:16:36","end_time":"2019-12-11 10:00:00","create_time":"2014-11-02 16:12:04","start_time":"2016-12-04 10:00:00","outlet_id":"0","preheating_intro":"","is_support_pop":"-1","h5_url":"","day_limited":"-1","sent_pop":"0","promotion_force":""}],"is_spu":"0","warehouse_type":"1","item_name":"啾啾  CHUCHU 可爱妈妈玻璃宽口奶瓶 皇冠 160ml","item_id":"1000137","item_market_price":"200.00","item_pic":"https://img.miyabaobei.com/item/10/1000/1000137_normal_2.jpg","promotion_tag":"126"}],"show_coupon":0,"promotion":{"reduce_money":"20","preheating_time":"0000-00-00 00:00:00","department_id":"0","to_create_outlet":"0","warehouse_ids":"","n_item":"0","type":"full_reduce","is_valid":true,"id":"126","title":"海绵泡泡满199立减20元，可累计","icon_id":"0","discount_sign":"满减","limit_stock":"-1","to_create_special":"0","exten":"自动化测试==满减测试","app_url":"","price_limit":"no","is_preheating":"0","m_money":"0","full_money_type":"1","outlet_pattern":"0","cron_status":"0","promotion_ownership":"0","is_channel":"0","account_type":"0","supplier_id":"0","max_buy":"-1","status":"3","web_url":"","label_id":"1","full_money":"230","intro":"自动化测试==满减测试","discount":"0.00","pop_select_goods":"1","outlet_type":"0","update_time":"2017-01-09 11:16:36","end_time":"2019-12-11 10:00:00","create_time":"2014-11-02 16:12:04","start_time":"2016-12-04 10:00:00","outlet_id":"0","preheating_intro":"","is_support_pop":"-1","h5_url":"","day_limited":"-1","sent_pop":"0","promotion_force":""}}],"check_all":1,"store_name":"蜜芽自营","is_special":0}]},"alert":"操作成功!","code":200,"msg":""}
+[17:50:49:699] [INFO] - com.mia.Method.Method.JsonParam(Method.java:106) - 
+ ************业务参数**********
+{"row_id":"148393221741363"}
+ ************业务参数**********
+[17:50:49:707] [INFO] - com.mia.Method.Http.Httpclient.sendHttpPost(Httpclient.java:116) - 
+接口名称：https://api.miyabaobei.com/cart/delete
+请求报文：app_id=ios_test_id&auth_session=020f1fe93bbe5778060b79e44582d74f&dvc_id=miatest2f34cbbcc9444596aca87a9626bf3a23&params=LGuqsv4q4hsVUWVlyHSX6KYdpz9xV_hIXy02hqB5tmwMW3LD2f4bNBIePZMjFj-MGf6uSz_brv4KEKJ4CS0jf_gLhgwY7lpLVSHEMw5g-DbxVG2pVehic7iKu99tKVkDtq-hXtvOI1mk6DUrZIiPDuRtdRwOXQyd8HnosW3xTsk=&regid=miatest2f34cbbcc9444596aca87a9626bf3a23&session=148395544969917641&sign=03386a3ee1e217255d5d7aad6190f1ba&timestamp=1483955449&version=ios_5_0_0
+[17:50:49:807] [INFO] - com.mia.Method.Http.Httpclient.sendHttpPost(Httpclient.java:137) - 
+响应结果：{"content":{"cart_msgs":[],"invalid_item":[],"cart_total":{"select_quantity":0,"taxes_price":0,"is_select_all":0,"settle_amount":0,"thrift_price":0},"official_total":0,"row_infos":[]},"alert":"操作成功!","code":200,"msg":""}
+[17:50:49:807] [INFO] - com.mia.Method.Method.JsonParam(Method.java:106) - 
+ ************业务参数**********
+{"row_id":"126"}
+ ************业务参数**********
+[17:50:49:815] [INFO] - com.mia.Method.Http.Httpclient.sendHttpPost(Httpclient.java:116) - 
+接口名称：https://api.miyabaobei.com/cart/delete
+请求报文：app_id=ios_test_id&auth_session=020f1fe93bbe5778060b79e44582d74f&dvc_id=miatestb8157c357db6453a8cd90297e117b243&params=jvfpM9-FqUpq0GhDTJu1pv1pQNeqEO73vUlv9K62OjE8-F6IfHkjzRATzGs0D_AzdTv1JssZsDtIK8gROXcUDSu_w9DkIOyQi4y29G-ub-iIt84UpYAb51tjqFakwirLpvcoNEJtJ2HAgQr06EvmhzF-m7Sy-H-cP1sITVOJsDk=&regid=miatestb8157c357db6453a8cd90297e117b243&session=148395544980855871&sign=d04a40dfd886aeb1320cf4f5d2238d3f&timestamp=1483955449&version=ios_5_0_0
+[17:50:49:908] [INFO] - com.mia.Method.Http.Httpclient.sendHttpPost(Httpclient.java:137) - 
+响应结果：{"content":{"cart_msgs":[],"invalid_item":[],"cart_total":{"select_quantity":0,"taxes_price":0,"is_select_all":0,"settle_amount":0,"thrift_price":0},"official_total":0,"row_infos":[]},"alert":"操作成功!","code":200,"msg":""}
+[17:50:49:909] [INFO] - com.mia.Method.Method.JsonParam(Method.java:106) - 
+ ************业务参数**********
+{"row_id":"126"}
+ ************业务参数**********
+[17:50:49:915] [INFO] - com.mia.Method.Http.Httpclient.sendHttpPost(Httpclient.java:116) - 
+接口名称：https://api.miyabaobei.com/cart/delete
+请求报文：app_id=ios_test_id&auth_session=020f1fe93bbe5778060b79e44582d74f&dvc_id=miatestdcc308c2fc61433782ce95cbba4abe7d&params=b_XGn0KgeHiFowlV9KRHpn-4xDmizv0YeSs5YzOorIAALShfVUdbgdg5-XKs1WnMZzdOL_EpAGZ7YWYzyk1qxDwvZDqUZhv9DRue0uBh5OdoKPVnhHvpOp-g52RslpOPwmRXXiv91V5ObofPMZWXBqrDozk1g-E_GjMY-X19SyA=&regid=miatestdcc308c2fc61433782ce95cbba4abe7d&session=148395544990984120&sign=41fb509f0cf5dd8ed270f491e82c39a4&timestamp=1483955449&version=ios_5_0_0
+[17:50:50:007] [INFO] - com.mia.Method.Http.Httpclient.sendHttpPost(Httpclient.java:137) - 
+响应结果：{"content":{"cart_msgs":[],"invalid_item":[],"cart_total":{"select_quantity":0,"taxes_price":0,"is_select_all":0,"settle_amount":0,"thrift_price":0},"official_total":0,"row_infos":[]},"alert":"操作成功!","code":200,"msg":""}
+[17:50:50:010] [INFO] - com.mia.Test.Checkout.Checkout_Single_2.BeforeMethod(Checkout_Single_2.java:34) - 普通单品初始化数据
+[17:50:50:104] [INFO] - com.mia.Method.Http.Httpclient.sendHttpPost(Httpclient.java:116) - 
+接口名称：https://api.miyabaobei.com/topcart/add
+请求报文：app_id=ios_test_id&auth_session=020f1fe93bbe5778060b79e44582d74f&dvc_id=miatest62960c19e8b344d1a64a961658910a45&params=GuSlP7a2pMQgTZ0L4qw2ZFh8KBpTULQMxj6k5Y2WbyLxU6xtfvVlKEUkutxOvexBbd_W9ZkX8R7crlGscJV8YZ0ybRzZuDwmipfStaUmY7MtJk5qiDt4Tn8SXsG8BMzH7-jpD2ndTLIMNgjGC9NGaCQMX1KwftYSXIULw4oW-BE=UrQnbi8QbE1cfCPgDP78WZ9Pde8xdEZtps5iJzWn4MEENOHmA84cQ7_K9LMjxLpLtAOQkbt4sfQLiflfXujrNAvQafXEExwp1ZhMVWr4iq9zUm7AmwRXXAWvIXzsuJKDr-P9EtdAxS-uQD-phDW1FAI8AD3ifCgDp_1DOHS7kAM=&regid=miatest62960c19e8b344d1a64a961658910a45&session=148395545009871113&sign=82eaafd071c3800331b11de4dffc8320&timestamp=1483955450&version=ios_5_0_0
+[17:50:50:220] [INFO] - com.mia.Method.Http.Httpclient.sendHttpPost(Httpclient.java:137) - 
+响应结果：{"content":1,"alert":"操作成功!","code":200,"msg":""}
+[17:50:50:221] [INFO] - com.mia.Test.Checkout.Checkout_Single_2.BeforeMethod(Checkout_Single_2.java:45) - Topcart_add响应结果： 200
+[17:50:50:257] [INFO] - com.mia.Report.TestngListener.onTestStart(TestngListener.java:18) - 
+**************************************************
+接口测试开始
+[17:50:50:262] [INFO] - com.mia.Method.Http.Httpclient.sendHttpPost(Httpclient.java:116) - 
+接口名称：https://api.miyabaobei.com/order/checkout
+请求报文：app_id=ios_test_id&auth_session=020f1fe93bbe5778060b79e44582d74f&dvc_id=miatest26c742c429ae40afa08583be6674c110&params=cWPebf1uAxTnJf4paqWBB90JvMl13EWFA7oiS72HigD9R36IEUIhkh2eBuqwJkBQ5ndCkVcQ6DpSfT7jOP5hKda2TjX6blyxQxSa8QOiXUlX2t4tIbBJkwallGuZTcZYMGaaqySwbZMrUv9_VuH7d-8ItFmakUoUxa2J1BuFX9M=&regid=miatest26c742c429ae40afa08583be6674c110&session=148395545025758497&sign=11cd5023e0204777c02c06fa2134d88a&timestamp=1483955450&version=ios_5_0_0
+[17:50:50:495] [INFO] - com.mia.Method.Http.Httpclient.sendHttpPost(Httpclient.java:137) - 
+响应结果：{"content":{"wrong_items":[{"item_name":"啾啾  CHUCHU 可爱妈妈玻璃宽口奶瓶 皇冠 160ml","item_id":"1000137","item_quantity":1,"item_pic":"https://img02.miyabaobei.com/item/10/1000/1000137_normal_1.jpg","item_error_tips":"当前商品无货"}]},"request_id":"201701091750368cbb56d050f2bfcdb3a95f99f6e42308","alert":"查询成功","code":200}
+[17:50:50:499] [INFO] - com.mia.Report.TestngListener.onTestSuccess(TestngListener.java:46) - 
+用例执行成功
+**************************************************
+
+[17:50:50:505] [INFO] - com.mia.Method.Http.Httpclient.sendHttpPost(Httpclient.java:116) - 
+接口名称：https://api.miyabaobei.com/cart/info
+请求报文：app_id=ios_test_id&auth_session=020f1fe93bbe5778060b79e44582d74f&dvc_id=miatest144126af4e5a4a72b6526e60dcc0aec0&regid=miatest144126af4e5a4a72b6526e60dcc0aec0&session=148395545050069067&sign=b009d74a78e29e866c27edb6faa92a13&timestamp=1483955450&version=ios_5_0_0
+[17:50:50:629] [INFO] - com.mia.Method.Http.Httpclient.sendHttpPost(Httpclient.java:137) - 
+响应结果：{"content":{"cart_msgs":[],"invalid_item":[{"gift":"","warehouse_id":"40","spec_show":"","is_select":0,"store_id":"1192","item_quantity":1,"item_sale_price":"200.00","item_stock":0,"item_size":"","id":"148395540844096","is_spu":"0","warehouse_type":"1","item_name":"啾啾  CHUCHU 可爱妈妈玻璃宽口奶瓶 皇冠 160ml","item_id":"1000137","create_time":"2017-01-09 17:50:08","item_market_price":"200.00","item_pic":"https://img.miyabaobei.com/item/10/1000/1000137_normal_2.jpg","promotion_tag":"126"}],"cart_total":{"select_quantity":0,"taxes_price":0,"is_select_all":0,"settle_amount":0,"thrift_price":0},"official_total":0,"row_infos":[]},"alert":"操作成功!","code":200,"msg":""}
+[17:50:50:630] [INFO] - com.mia.Method.Method.JsonParam(Method.java:106) - 
+ ************业务参数**********
+{"row_id":"148395540844096"}
+ ************业务参数**********
+[17:50:50:635] [INFO] - com.mia.Method.Http.Httpclient.sendHttpPost(Httpclient.java:116) - 
+接口名称：https://api.miyabaobei.com/cart/delete
+请求报文：app_id=ios_test_id&auth_session=020f1fe93bbe5778060b79e44582d74f&dvc_id=miatestaa1541d8dd614f84ae607b3219b3fc48&params=EUqYc4cAvKFJOePrpQhu_eXIN26yawugJi7ppw38A0uGWZ6HAdUabNLTxc3JMiMwretNHQYdp3G5YSpfzCjd6WGWF88GXnh9aOJk3H_9VnKB-W-4U_EQ55Fa7gtQfdG1gO6hoxw9Yn_X6jcbl7aH-UVnlK3ZKuS79ClZBt1UX3U=&regid=miatestaa1541d8dd614f84ae607b3219b3fc48&session=148395545063156521&sign=5206f24cbaa01cae9802bac7649a062d&timestamp=1483955450&version=ios_5_0_0
+[17:50:50:721] [INFO] - com.mia.Method.Http.Httpclient.sendHttpPost(Httpclient.java:137) - 
+响应结果：{"content":{"cart_msgs":[],"invalid_item":[],"cart_total":{"select_quantity":0,"taxes_price":0,"is_select_all":0,"settle_amount":0,"thrift_price":0},"official_total":0,"row_infos":[]},"alert":"操作成功!","code":200,"msg":""}
+[17:50:50:723] [INFO] - com.mia.Test.Checkout.Checkout_Single_3.BeforeMethod(Checkout_Single_3.java:31) - 普通单品初始化数据
+[17:50:50:794] [INFO] - com.mia.Method.Http.Httpclient.sendHttpPost(Httpclient.java:116) - 
+接口名称：https://api.miyabaobei.com/topcart/add
+请求报文：app_id=ios_test_id&auth_session=020f1fe93bbe5778060b79e44582d74f&dvc_id=miatest096aea014c584ae1926a05ed80b268fd&params=IfonHb2NWxmsAxyfQ0-nFMM_0iMigDdpC_ofaz8bB59lFctZjRkX4qjnla3OPMFeI4hQrL2BlwiJIN3qoN-rx2xe8kTNqVkyVT-_5JzqWZGTnC0rEzuX4ilOzqxAlWM_9LnySxyaTTRXA-to4Ue3tR_pVmazuklQopOyPkUKOco=X_uQibUvZGaOVqN2IJ2cjI20FyAuQgmCt-JBMQoVdFmokBmCwalK5VlW-k_mldbHlaUdyDpgODamPL3k_I7Gy7x_mNDi-JSba_Hl1APxeDN7QFOlgJtec1qWplcKK4V3Og94KX4LLHLGyh0mPKxahSS4Fl9N49zOcdjnoolhQoA=&regid=miatest096aea014c584ae1926a05ed80b268fd&session=148395545078620763&sign=e093a628c0e84bb5d3fb4e749f1ececc&timestamp=1483955450&version=ios_5_0_0
+[17:50:50:902] [INFO] - com.mia.Method.Http.Httpclient.sendHttpPost(Httpclient.java:137) - 
+响应结果：{"content":1,"alert":"操作成功!","code":200,"msg":""}
+[17:50:50:903] [INFO] - com.mia.Test.Checkout.Checkout_Single_3.BeforeMethod(Checkout_Single_3.java:42) - Topcart_add响应结果： 200
+[17:50:50:947] [INFO] - com.mia.Report.TestngListener.onTestStart(TestngListener.java:18) - 
+**************************************************
+接口测试开始
+[17:50:50:954] [INFO] - com.mia.Method.Http.Httpclient.sendHttpPost(Httpclient.java:116) - 
+接口名称：https://api.miyabaobei.com/order/checkout
+请求报文：app_id=ios_test_id&auth_session=020f1fe93bbe5778060b79e44582d74f&dvc_id=miatest2e2351c8e260429fab63dd4204352cee&params=iWM9RgzGULB3u7Z765wE5lS9k16jFYNmH-ekRm6Y3JfbsVLD49B7E1sBtJ3LpOuKRe4k0ORBd0ZmBUhPY-ruQXCj929e8lqg4EjqUW5GnQWHVKT4yyvSeCzsqWu7AjsKhm1lhqSkjPmi4gDjHY8LUDCrvAkjh72-dEPhAfl6rSE=&regid=miatest2e2351c8e260429fab63dd4204352cee&session=148395545094890467&sign=d25cd90960b08976db5c820a69bf046b&timestamp=1483955450&version=ios_5_0_0
+[17:50:51:167] [INFO] - com.mia.Method.Http.Httpclient.sendHttpPost(Httpclient.java:137) - 
+响应结果：{"content":"","alert":"啾啾  CHUCHU 可爱妈妈玻璃宽口奶瓶 皇冠 160ml 商品缺货","code":702,"msg":"啾啾  CHUCHU 可爱妈妈玻璃宽口奶瓶 皇冠 160ml 商品缺货"}
+[17:50:51:172] [INFO] - com.mia.Report.TestngListener.onTestSuccess(TestngListener.java:46) - 
+用例执行成功
+**************************************************
+
+[17:50:51:179] [INFO] - com.mia.Method.Http.Httpclient.sendHttpPost(Httpclient.java:116) - 
+接口名称：https://api.miyabaobei.com/cart/info
+请求报文：app_id=ios_test_id&auth_session=020f1fe93bbe5778060b79e44582d74f&dvc_id=miatest499f4a73c0d54cd89e7a10a39cf7a618&regid=miatest499f4a73c0d54cd89e7a10a39cf7a618&session=148395545117338919&sign=ef6db6d479be9dd5e2b40f7509ee120b&timestamp=1483955451&version=ios_5_0_0
+[17:50:51:309] [INFO] - com.mia.Method.Http.Httpclient.sendHttpPost(Httpclient.java:137) - 
+响应结果：{"content":{"cart_msgs":[],"invalid_item":[],"cart_total":{"select_quantity":1,"freight_tax_name":"不含运费和进口税","is_select_all":1,"settle_amount":200},"official_total":1,"row_infos":[{"is_valid_store":0,"store_id":0,"item_group":[{"full_diff_money":"再购30元，立享【满230减20】","items":[{"gift":"","warehouse_id":"40","spec_show":"","is_select":1,"store_id":"1192","item_quantity":1,"item_sale_price":"200.00","item_stock":99,"item_size":"SINGLE","id":"148395540912289","promotion_lists":[{"reduce_money":"20","preheating_time":"0000-00-00 00:00:00","department_id":"0","to_create_outlet":"0","warehouse_ids":"","n_item":"0","type":"full_reduce","id":"126","title":"海绵泡泡满199立减20元，可累计","icon_id":"0","discount_sign":"满减","limit_stock":"-1","to_create_special":"0","exten":"自动化测试==满减测试","app_url":"","price_limit":"no","is_preheating":"0","m_money":"0","full_money_type":"1","outlet_pattern":"0","cron_status":"0","promotion_ownership":"0","is_channel":"0","account_type":"0","supplier_id":"0","max_buy":"-1","status":"3","web_url":"","label_id":"1","full_money":"230","intro":"自动化测试==满减测试","discount":"0.00","shoppingcart_dimension":"1","pop_select_goods":"1","outlet_type":"0","update_time":"2017-01-09 11:16:36","end_time":"2019-12-11 10:00:00","create_time":"2014-11-02 16:12:04","start_time":"2016-12-04 10:00:00","outlet_id":"0","preheating_intro":"","is_support_pop":"-1","h5_url":"","day_limited":"-1","sent_pop":"0","promotion_force":""}],"is_spu":"0","warehouse_type":"1","item_name":"啾啾  CHUCHU 可爱妈妈玻璃宽口奶瓶 皇冠 160ml","item_id":"1000137","item_market_price":"200.00","item_pic":"https://img.miyabaobei.com/item/10/1000/1000137_normal_2.jpg","promotion_tag":"126"}],"show_coupon":0,"promotion":{"reduce_money":"20","preheating_time":"0000-00-00 00:00:00","department_id":"0","to_create_outlet":"0","warehouse_ids":"","n_item":"0","type":"full_reduce","is_valid":false,"id":"126","title":"海绵泡泡满199立减20元，可累计","icon_id":"0","discount_sign":"满减","limit_stock":"-1","to_create_special":"0","exten":"自动化测试==满减测试","app_url":"","price_limit":"no","is_preheating":"0","m_money":"0","full_money_type":"1","outlet_pattern":"0","cron_status":"0","promotion_ownership":"0","is_channel":"0","account_type":"0","supplier_id":"0","max_buy":"-1","status":"3","web_url":"","label_id":"1","full_money":"230","intro":"自动化测试==满减测试","discount":"0.00","pop_select_goods":"1","outlet_type":"0","update_time":"2017-01-09 11:16:36","end_time":"2019-12-11 10:00:00","create_time":"2014-11-02 16:12:04","start_time":"2016-12-04 10:00:00","outlet_id":"0","preheating_intro":"","is_support_pop":"-1","h5_url":"","day_limited":"-1","sent_pop":"0","promotion_force":""}}],"check_all":1,"store_name":"蜜芽自营","is_special":0}]},"alert":"操作成功!","code":200,"msg":""}
+[17:50:51:311] [INFO] - com.mia.Method.Method.JsonParam(Method.java:106) - 
+ ************业务参数**********
+{"row_id":"148395540912289"}
+ ************业务参数**********
+[17:50:51:319] [INFO] - com.mia.Method.Http.Httpclient.sendHttpPost(Httpclient.java:116) - 
+接口名称：https://api.miyabaobei.com/cart/delete
+请求报文：app_id=ios_test_id&auth_session=020f1fe93bbe5778060b79e44582d74f&dvc_id=miatest195f678c14144bb4b7fb37ad212bc518&params=SGVaydtreoHxS12_ZrbQ-_DYX7k5xnCq9l-028_Zfn3urIR9BogrEPtOai5AQxswqwjdIS-M7vTC7dQ6VVChh9Ow-uuYrPlA1-tlfO9MsNYtf-41hfj1m8V1332JxVc7DEfW5w3kUlAu9hcBMVjXxxNl7QLyFsJCn_nyIs_RGNg=&regid=miatest195f678c14144bb4b7fb37ad212bc518&session=148395545131113675&sign=f1a0835a9ddb061f7c8ab28ec860ffad&timestamp=1483955451&version=ios_5_0_0
+[17:50:51:404] [INFO] - com.mia.Method.Http.Httpclient.sendHttpPost(Httpclient.java:137) - 
+响应结果：{"content":{"cart_msgs":[],"invalid_item":[],"cart_total":{"select_quantity":0,"taxes_price":0,"is_select_all":0,"settle_amount":0,"thrift_price":0},"official_total":0,"row_infos":[]},"alert":"操作成功!","code":200,"msg":""}
+[17:50:51:405] [INFO] - com.mia.Method.Method.JsonParam(Method.java:106) - 
+ ************业务参数**********
+{"row_id":"126"}
+ ************业务参数**********
+[17:50:51:411] [INFO] - com.mia.Method.Http.Httpclient.sendHttpPost(Httpclient.java:116) - 
+接口名称：https://api.miyabaobei.com/cart/delete
+请求报文：app_id=ios_test_id&auth_session=020f1fe93bbe5778060b79e44582d74f&dvc_id=miatest7fe3751af5454de28483a48c65a2d419&params=QlaeoHdfZzdkc_ogjCcMADh3cL2ra0vLmxLqisaO8UuUYn5LYK5dz1YVIs13bIbKiHnIzZT3AizBODvoDK02ARBrA_uHZAolfAGwhoTpJv0gZdsxywPHvhn-KjAtdGvPfSpMkvsy1J3tqgzhK7pOTLSNzV-AtFGVlcEpq0P-zlk=&regid=miatest7fe3751af5454de28483a48c65a2d419&session=148395545140587867&sign=d0dda8cdfefb4380aead48fae366fc7f&timestamp=1483955451&version=ios_5_0_0
+[17:50:51:494] [INFO] - com.mia.Method.Http.Httpclient.sendHttpPost(Httpclient.java:137) - 
+响应结果：{"content":{"cart_msgs":[],"invalid_item":[],"cart_total":{"select_quantity":0,"taxes_price":0,"is_select_all":0,"settle_amount":0,"thrift_price":0},"official_total":0,"row_infos":[]},"alert":"操作成功!","code":200,"msg":""}
+[17:50:51:496] [INFO] - com.mia.Method.Method.JsonParam(Method.java:106) - 
+ ************业务参数**********
+{"row_id":"126"}
+ ************业务参数**********
+[17:50:51:501] [INFO] - com.mia.Method.Http.Httpclient.sendHttpPost(Httpclient.java:116) - 
+接口名称：https://api.miyabaobei.com/cart/delete
+请求报文：app_id=ios_test_id&auth_session=020f1fe93bbe5778060b79e44582d74f&dvc_id=miatest33503fb75d944c788d32e4ba9a0f6912&params=R7D-dlhrSdV820wzVP4JVEZnHcHAj3WmOExC-DLF6D5BVaHpzOoWUhEW1WRsNSbEAof3E8mab2EM9qwrxwX3TWjIBQ7eod6UWITaSOHNLpkIjkLrRoLnpmTB9MCMsMIs4zKyTaKJvN5VlD33csV0wZNv-hYvlOKXSEGFJxHQrhQ=&regid=miatest33503fb75d944c788d32e4ba9a0f6912&session=148395545149609869&sign=f1ca8ea6203f629b0455fdd77b13ac07&timestamp=1483955451&version=ios_5_0_0
+[17:50:51:584] [INFO] - com.mia.Method.Http.Httpclient.sendHttpPost(Httpclient.java:137) - 
+响应结果：{"content":{"cart_msgs":[],"invalid_item":[],"cart_total":{"select_quantity":0,"taxes_price":0,"is_select_all":0,"settle_amount":0,"thrift_price":0},"official_total":0,"row_infos":[]},"alert":"操作成功!","code":200,"msg":""}
+[17:50:51:586] [INFO] - com.mia.Test.Checkout.Checkout_Single_4.BeforeMethod(Checkout_Single_4.java:36) - 普通单品初始化数据
+[17:50:51:748] [INFO] - com.mia.Method.Http.Httpclient.sendHttpPost(Httpclient.java:116) - 
+接口名称：https://api.miyabaobei.com/topcart/add
+请求报文：app_id=ios_test_id&auth_session=020f1fe93bbe5778060b79e44582d74f&dvc_id=miatestcc6d4b922ee742d9a99bc991dd507e61&params=FPosTGkZRei9kfhF6nboV9_NnnPcczA4a78gm45TrvIeTLTOKuIL4O_wErjIG4lw7ycMYGlmiI00Z539JmgqltcRN206olAYueEBpvm205DTlS_l6S-1caK5YHFoGGtXezO_GMdzYI8ay9VaeQ2pYWqr4uGH9CMVjX2b7g4l0xE=JtCgQ2bDm55R1jivknAPRqEtpQ1kSstvlLXYdZo1YVWLrueCTKMYDdveB_tusSOlslfdR_4ccg0W5BlaHlhSrNr_fx5mD3IKA9AqOcNof1a32aWs3J7JAMwS543DwkpsSTO6T-8JqLRkc6Ddm5nvPcSdFJFjX-UPggBhdyRNShE=&regid=miatestcc6d4b922ee742d9a99bc991dd507e61&session=148395545174266625&sign=88fd7f83563fcc7b6280523492f4a9a1&timestamp=1483955451&version=ios_5_0_0
+[17:50:51:853] [INFO] - com.mia.Method.Http.Httpclient.sendHttpPost(Httpclient.java:137) - 
+响应结果：{"content":3,"alert":"操作成功!","code":200,"msg":""}
+[17:50:51:853] [INFO] - com.mia.Test.Checkout.Checkout_Single_4.BeforeMethod(Checkout_Single_4.java:59) - Topcart_add响应结果： 200
+[17:50:51:857] [INFO] - com.mia.Report.TestngListener.onTestStart(TestngListener.java:18) - 
+**************************************************
+接口测试开始
+[17:50:51:861] [INFO] - com.mia.Method.Http.Httpclient.sendHttpPost(Httpclient.java:116) - 
+接口名称：https://api.miyabaobei.com/order/checkout
+请求报文：app_id=ios_test_id&auth_session=020f1fe93bbe5778060b79e44582d74f&dvc_id=miatest4ea2e3c7a52543efbf9a51db13fa72ec&params=PUp5JgKze8W4y7aXUL0DiZNrNXir--PqjVuGZPgpldtmqmUCtofb2Ph7ktU9AuJIQcKKFky6k7mngbrRWlaMISJadKcWUmFX2ky8tJjmgTQB0c42DpQmmhRyVZoEvRMFQAObiesKm5jg-Vhv7Pi0hcl8bMsOLGol_W0PgJj6q7E=&regid=miatest4ea2e3c7a52543efbf9a51db13fa72ec&session=148395545185781314&sign=31af2663b06ac2d69a118c97fe011e9c&timestamp=1483955451&version=ios_5_0_0
+[17:50:52:092] [INFO] - com.mia.Method.Http.Httpclient.sendHttpPost(Httpclient.java:137) - 
+响应结果：{"content":{"top_tips":"","lock_balance":0,"default_address":{"city_id":"456","id":"501577","town_id":"43014","area_id":"4446","prov":"北京市","phone":"","area":"东城区","address":"三里屯酒吧","name":"列王","town":"内环到三环里","prov_id":"1","city":"北京市","mobile":"13888888888"},"show_invoice_desc":"","checkout_item":[{"sub_item":[{"warehouse_name":"","lottery_flag":"","sale_price":"200.00","is_gift":"0","item_time":"2017-01-09 17:50:10","spec_show":"","pic":"https://img02.miyabaobei.com/item/10/1000/1000137_normal_1.jpg","size":"SINGLE","is_spu":"0","market_price":"200.00","item_id":"1000137","name":"啾啾  CHUCHU 可爱妈妈玻璃宽口奶瓶 皇冠 160ml","quantity":3}],"sub_content":{"title":"蜜芽自营","has_hongkong_warehouse":0,"sub_pay_price":600,"sub_total_qty":3}}],"other_address":[{"city_id":"456","id":"501577","town_id":"43014","area_id":"4446","prov":"北京市","phone":"","area":"东城区","address":"三里屯酒吧","name":"列王","town":"内环到三环里","prov_id":"1","city":"北京市","mobile":"13888888888"}],"mia_tips":"","cart_total":{"total_coupon_price":0,"redbag_refresh":true,"sale_price":600,"total_redbag_price":"0","coupon_text":"使用优惠券","total_promotion_reduce":40,"reduce_price":40,"settlement_mode":0,"coupon_code":"","coupon_refresh":true,"freight_price":0,"freight_spec":"","redbag_text":"使用红包","coupon_spec":"","thrift_price":0,"total_market_price":600,"free_ship_flag":"","redbag_spec":"","quantity":3,"redbag_use_flag":true,"pay_price":560,"redbag_id":""},"total_balance":0,"type":"official","may_invoice":false,"promote_image":""},"request_id":"20170109175037a3a7dc19c857e9b7f888fbcf1d7b31e5","alert":"查询成功","code":200}
+[17:50:52:099] [INFO] - com.mia.Report.TestngListener.onTestSuccess(TestngListener.java:46) - 
+用例执行成功
+**************************************************
+
+[17:50:52:105] [INFO] - com.mia.Method.Http.Httpclient.sendHttpPost(Httpclient.java:116) - 
+接口名称：https://api.miyabaobei.com/cart/info
+请求报文：app_id=ios_test_id&auth_session=020f1fe93bbe5778060b79e44582d74f&dvc_id=miatest868810d47d414484b3140ccaed4e2fdd&regid=miatest868810d47d414484b3140ccaed4e2fdd&session=148395545209997844&sign=04fcf5ef6644f67293b046c9cb83511a&timestamp=1483955452&version=ios_5_0_0
+[17:50:52:227] [INFO] - com.mia.Method.Http.Httpclient.sendHttpPost(Httpclient.java:137) - 
+响应结果：{"content":{"cart_msgs":[],"invalid_item":[],"cart_total":{"select_quantity":3,"freight_tax_name":"不含运费和进口税","is_select_all":1,"thrift_name":"已减","settle_amount":560,"thrift_price":40},"official_total":3,"row_infos":[{"is_valid_store":0,"store_id":0,"item_group":[{"full_diff_money":"已减40，再购90元，立享【满690减60】","items":[{"gift":"","warehouse_id":"40","spec_show":"","is_select":1,"store_id":"1192","item_quantity":3,"item_sale_price":"200.00","item_stock":99,"item_size":"SINGLE","id":"148395541007345","promotion_lists":[{"reduce_money":"20","preheating_time":"0000-00-00 00:00:00","department_id":"0","to_create_outlet":"0","warehouse_ids":"","n_item":"0","type":"full_reduce","id":"126","title":"海绵泡泡满199立减20元，可累计","icon_id":"0","discount_sign":"满减","limit_stock":"-1","to_create_special":"0","exten":"自动化测试==满减测试","app_url":"","price_limit":"no","is_preheating":"0","m_money":"0","full_money_type":"1","outlet_pattern":"0","cron_status":"0","promotion_ownership":"0","is_channel":"0","account_type":"0","supplier_id":"0","max_buy":"-1","status":"3","web_url":"","label_id":"1","full_money":"230","intro":"自动化测试==满减测试","discount":"0.00","shoppingcart_dimension":"1","pop_select_goods":"1","outlet_type":"0","update_time":"2017-01-09 11:16:36","end_time":"2019-12-11 10:00:00","create_time":"2014-11-02 16:12:04","start_time":"2016-12-04 10:00:00","outlet_id":"0","preheating_intro":"","is_support_pop":"-1","h5_url":"","day_limited":"-1","sent_pop":"0","promotion_force":""}],"is_spu":"0","warehouse_type":"1","item_name":"啾啾  CHUCHU 可爱妈妈玻璃宽口奶瓶 皇冠 160ml","item_id":"1000137","item_market_price":"200.00","item_pic":"https://img.miyabaobei.com/item/10/1000/1000137_normal_2.jpg","promotion_tag":"126"}],"show_coupon":0,"promotion":{"reduce_money":"20","preheating_time":"0000-00-00 00:00:00","department_id":"0","to_create_outlet":"0","warehouse_ids":"","n_item":"0","type":"full_reduce","is_valid":true,"id":"126","title":"海绵泡泡满199立减20元，可累计","icon_id":"0","discount_sign":"满减","limit_stock":"-1","to_create_special":"0","exten":"自动化测试==满减测试","app_url":"","price_limit":"no","is_preheating":"0","m_money":"0","full_money_type":"1","outlet_pattern":"0","cron_status":"0","promotion_ownership":"0","is_channel":"0","account_type":"0","supplier_id":"0","max_buy":"-1","status":"3","web_url":"","label_id":"1","full_money":"230","intro":"自动化测试==满减测试","discount":"0.00","pop_select_goods":"1","outlet_type":"0","update_time":"2017-01-09 11:16:36","end_time":"2019-12-11 10:00:00","create_time":"2014-11-02 16:12:04","start_time":"2016-12-04 10:00:00","outlet_id":"0","preheating_intro":"","is_support_pop":"-1","h5_url":"","day_limited":"-1","sent_pop":"0","promotion_force":""}}],"check_all":1,"store_name":"蜜芽自营","is_special":0}]},"alert":"操作成功!","code":200,"msg":""}
+[17:50:52:228] [INFO] - com.mia.Method.Method.JsonParam(Method.java:106) - 
+ ************业务参数**********
+{"row_id":"148395541007345"}
+ ************业务参数**********
+[17:50:52:234] [INFO] - com.mia.Method.Http.Httpclient.sendHttpPost(Httpclient.java:116) - 
+接口名称：https://api.miyabaobei.com/cart/delete
+请求报文：app_id=ios_test_id&auth_session=020f1fe93bbe5778060b79e44582d74f&dvc_id=miatestf9f6941ff42f498f9ffbf0c27ac9c938&params=lY1q9GC41oWtC0bkOJWS4AyRFDF71i2Lcn2P12S_a6RhL2AINUm0aI0uCax4os9kIU_3R4atw-9iqwONTmcOYf30fkehEigYU5bgxE1g51FRf5rzFJOMhnJZC200w9aiWO6KFdFR9ABk8U3GB-uGBnOFgcoIBv0dLWM5JCQhwGo=&regid=miatestf9f6941ff42f498f9ffbf0c27ac9c938&session=148395545222867631&sign=1893bf9f93e66b88d7e5012418be493f&timestamp=1483955452&version=ios_5_0_0
+[17:50:52:322] [INFO] - com.mia.Method.Http.Httpclient.sendHttpPost(Httpclient.java:137) - 
+响应结果：{"content":{"cart_msgs":[],"invalid_item":[],"cart_total":{"select_quantity":0,"taxes_price":0,"is_select_all":0,"settle_amount":0,"thrift_price":0},"official_total":0,"row_infos":[]},"alert":"操作成功!","code":200,"msg":""}
+[17:50:52:323] [INFO] - com.mia.Method.Method.JsonParam(Method.java:106) - 
+ ************业务参数**********
+{"row_id":"126"}
+ ************业务参数**********
+[17:50:52:329] [INFO] - com.mia.Method.Http.Httpclient.sendHttpPost(Httpclient.java:116) - 
+接口名称：https://api.miyabaobei.com/cart/delete
+请求报文：app_id=ios_test_id&auth_session=020f1fe93bbe5778060b79e44582d74f&dvc_id=miatest2727b40238764fd198124a4c1549ade7&params=iZKX_Z4qHRcYan4EL8muJyZkqP4Ht5gvpO5rsig5lVcS8ia-R9RoeLklpW3SF_csEK1aHkwHB9gX29qsRxErudjwp4g0h0sSVXpu5u24_9loAvEt6eC5lviziceXcn2JMstaFjSUT5zYBjhhqs_h2SsuHFR87KyeCMOHLl_Qrq0=&regid=miatest2727b40238764fd198124a4c1549ade7&session=148395545232421610&sign=a4fc91dbd6f076ab8b3e4fa44608951a&timestamp=1483955452&version=ios_5_0_0
+[17:50:52:414] [INFO] - com.mia.Method.Http.Httpclient.sendHttpPost(Httpclient.java:137) - 
+响应结果：{"content":{"cart_msgs":[],"invalid_item":[],"cart_total":{"select_quantity":0,"taxes_price":0,"is_select_all":0,"settle_amount":0,"thrift_price":0},"official_total":0,"row_infos":[]},"alert":"操作成功!","code":200,"msg":""}
+[17:50:52:415] [INFO] - com.mia.Method.Method.JsonParam(Method.java:106) - 
+ ************业务参数**********
+{"row_id":"126"}
+ ************业务参数**********
+[17:50:52:424] [INFO] - com.mia.Method.Http.Httpclient.sendHttpPost(Httpclient.java:116) - 
+接口名称：https://api.miyabaobei.com/cart/delete
+请求报文：app_id=ios_test_id&auth_session=020f1fe93bbe5778060b79e44582d74f&dvc_id=miatest72f71de9f2fd4c3989442234fc02910c&params=T50Nj7b4kH7d6jTfKmkQgqh23oUlSUSkyxth2NydDVCDyoh9ysiURJlnmcUBt-RM_84JHzl2W33Dq-cDth5bXzWUBa5TJf9XsnJPwAOnbl71aDSC1if4InqWqwk51ar0xTsSEMUpJEtLvfxzASbt90YfauxV_amCpDaZRNRi7tw=&regid=miatest72f71de9f2fd4c3989442234fc02910c&session=148395545241639029&sign=e746914bd7419b304a31704e4b0882b1&timestamp=1483955452&version=ios_5_0_0
+[17:50:52:512] [INFO] - com.mia.Method.Http.Httpclient.sendHttpPost(Httpclient.java:137) - 
+响应结果：{"content":{"cart_msgs":[],"invalid_item":[],"cart_total":{"select_quantity":0,"taxes_price":0,"is_select_all":0,"settle_amount":0,"thrift_price":0},"official_total":0,"row_infos":[]},"alert":"操作成功!","code":200,"msg":""}

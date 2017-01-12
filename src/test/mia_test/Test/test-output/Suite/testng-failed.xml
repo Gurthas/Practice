@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [Suite]">
+  <listeners>
+    <listener class-name="com.mia.Report.TestngListener"/>
+  </listeners>
+  <test name="TestDebug(failed)">
+    <classes>
+      <class name="com.mia.Test.Checkout.Checkout_Single_3">
+        <methods>
+          <include name="BeforeMethod"/>
+          <include name="Test"/>
+        </methods>
+      </class> <!-- com.mia.Test.Checkout.Checkout_Single_3 -->
+      <class name="com.mia.Test.Checkout.Checkout_Single_4">
+        <methods>
+          <include name="BeforeMethod"/>
+          <include name="Test"/>
+        </methods>
+      </class> <!-- com.mia.Test.Checkout.Checkout_Single_4 -->
+      <class name="com.mia.Test.Checkout.Checkout_Single_1">
+        <methods>
+          <include name="BeforeMethod"/>
+          <include name="Test"/>
+        </methods>
+      </class> <!-- com.mia.Test.Checkout.Checkout_Single_1 -->
+      <class name="com.mia.Test.Checkout.Checkout_Single_2">
+        <methods>
+          <include name="BeforeMethod"/>
+          <include name="Test"/>
+        </methods>
+      </class> <!-- com.mia.Test.Checkout.Checkout_Single_2 -->
+    </classes>
+  </test> <!-- TestDebug(failed) -->
+</suite> <!-- Failed suite [Suite] -->

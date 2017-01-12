@@ -1,0 +1,91 @@
+<html>
+<head>
+<title>TestNG:  Default test</title>
+<link href="../testng.css" rel="stylesheet" type="text/css" />
+<link href="../my-testng.css" rel="stylesheet" type="text/css" />
+
+<style type="text/css">
+.log { display: none;} 
+.stack-trace { display: none;} 
+</style>
+<script type="text/javascript">
+<!--
+function flip(e) {
+  current = e.style.display;
+  if (current == 'block') {
+    e.style.display = 'none';
+    return 0;
+  }
+  else {
+    e.style.display = 'block';
+    return 1;
+  }
+}
+
+function toggleBox(szDivId, elem, msg1, msg2)
+{
+  var res = -1;  if (document.getElementById) {
+    res = flip(document.getElementById(szDivId));
+  }
+  else if (document.all) {
+    // this is the way old msie versions work
+    res = flip(document.all[szDivId]);
+  }
+  if(elem) {
+    if(res == 0) elem.innerHTML = msg1; else elem.innerHTML = msg2;
+  }
+
+}
+
+function toggleAllBoxes() {
+  if (document.getElementsByTagName) {
+    d = document.getElementsByTagName('div');
+    for (i = 0; i < d.length; i++) {
+      if (d[i].className == 'log') {
+        flip(d[i]);
+      }
+    }
+  }
+}
+
+// -->
+</script>
+
+</head>
+<body>
+<h2 align='center'>Default test</h2><table border='1' align="center">
+<tr>
+<td>Tests passed/Failed/Skipped:</td><td>1/0/0</td>
+</tr><tr>
+<td>Started on:</td><td>Mon Jan 09 11:19:15 CST 2017</td>
+</tr>
+<tr><td>Total time:</td><td>2 seconds (2216 ms)</td>
+</tr><tr>
+<td>Included groups:</td><td></td>
+</tr><tr>
+<td>Excluded groups:</td><td></td>
+</tr>
+</table><p/>
+<small><i>(Hover the method name to see the test class name)</i></small><p/>
+<table width='100%' border='1' class='invocation-passed'>
+<tr><td colspan='4' align='center'><b>PASSED TESTS</b></td></tr>
+<tr><td><b>Test method</b></td>
+<td width="30%"><b>Exception</b></td>
+<td width="10%"><b>Time (seconds)</b></td>
+<td><b>Instance</b></td>
+</tr>
+<tr>
+<td title='com.mia.Test.Checkout.Checkout_Single_4.Test()'><b>Test</b><br>Test class: com.mia.Test.Checkout.Checkout_Single_4<br>Test method: checckout_普通单品结算_4<br/>
+<a href="#Output-24117482" onClick='toggleBox("Output-24117482", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-24117482" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-24117482">
+{"content":{"top_tips":"","lock_balance":0,"default_address":{"city_id":"456","id":"501577","town_id":"43014","area_id":"4446","prov":"北京市","phone":"","area":"东城区","address":"三里屯酒吧","name":"列王","town":"内环到三环里","prov_id":"1","city":"北京市","mobile":"13888888888"},"show_invoice_desc":"","checkout_item":[{"sub_item":[{"warehouse_name":"","lottery_flag":"","sale_price":"200.00","is_gift":"0","item_time":"2017-01-09 11:18:35","spec_show":"","pic":"https://img01.miyabaobei.com/item/10/1000/1000137_normal_1.jpg","size":"SINGLE","is_spu":"0","market_price":"200.00","item_id":"1000137","name":"啾啾  CHUCHU 可爱妈妈玻璃宽口奶瓶 皇冠 160ml","quantity":1}],"sub_content":{"title":"蜜芽自营","has_hongkong_warehouse":0,"sub_pay_price":200,"sub_total_qty":1}}],"other_address":[{"city_id":"456","id":"501577","town_id":"43014","area_id":"4446","prov":"北京市","phone":"","area":"东城区","address":"三里屯酒吧","name":"列王","town":"内环到三环里","prov_id":"1","city":"北京市","mobile":"13888888888"}],"mia_tips":"","cart_total":{"total_coupon_price":0,"redbag_refresh":true,"sale_price":200,"total_redbag_price":"0","coupon_text":"使用优惠券","total_promotion_reduce":0,"reduce_price":0,"settlement_mode":0,"coupon_code":"","coupon_refresh":true,"freight_price":0,"freight_spec":"","redbag_text":"使用红包","coupon_spec":"","thrift_price":0,"total_market_price":200,"free_ship_flag":"","redbag_spec":"","quantity":1,"redbag_use_flag":true,"pay_price":200,"redbag_id":""},"total_balance":0,"type":"official","may_invoice":false,"promote_image":""},"request_id":"20170109111903fca736eb980ff9275d2734874529d245","alert":"查询成功","code":200}<br/>
+</div>
+</td>
+<td></td>
+<td>0</td>
+<td>com.mia.Test.Checkout.Checkout_Single_4@1c57e85</td></tr>
+</table><p>
+</body>
+</html>
