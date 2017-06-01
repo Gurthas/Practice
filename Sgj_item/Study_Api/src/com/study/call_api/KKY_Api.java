@@ -1,13 +1,12 @@
 package com.study.call_api;
 
-import java.util.Map;
 import com.study.settings.GlobalSettings;
 import com.study.suit.HttpClientHelper;
-import com.study.utils.Time;
 
 import java.io.IOException;
 import java.net.ProtocolException;
 import java.util.HashMap;
+import java.util.Map;
 
 public class KKY_Api {
 	// 发送验证码请求
