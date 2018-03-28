@@ -4,7 +4,7 @@ import HTMLTestRunner,sys,os
 import datetime
 #import self as self
 from Shopping_Cart import item_checkout
-from Shopping_Cart import seach
+from Shopping_Cart import search
 from Shopping_Cart import order_checkout
 from common import connect
 from GlobalParams import driver
@@ -30,11 +30,11 @@ if __name__ == '__main__':
     #log=logger.Logger(logger="suitCheckout")
     def suiteShoppingCart():
         suiteTest = unittest.TestSuite()
-        suiteTest.addTest(item_checkout.itemCheckout('intoShoppingCart'))
+        suiteTest.addTest(item_checkout.ItemCheckout('intoShoppingCart'))
         logging.info("执行进入购物用例")
-        suiteTest.addTest(item_checkout.itemCheckout('CartClear'))
-        suiteTest.addTest(item_checkout.itemCheckout('login'))
-        suiteTest.addTest(item_checkout.itemCheckout('addcart'))
+        suiteTest.addTest(item_checkout.ItemCheckout('CartClear'))
+        suiteTest.addTest(item_checkout.ItemCheckout('login'))
+        suiteTest.addTest(item_checkout.ItemCheckout('addcart'))
         return suiteTest
 
     def suitCheckout():
@@ -44,7 +44,7 @@ if __name__ == '__main__':
     # add suit to allsuit
     def suiteSeach():
         suiteTest = unittest.TestSuite()
-        suiteTest.addTest(seach.seach('seachcheck'))
+        suiteTest.addTest(search.search('searchcheck'))
         return suiteTest
     def allSuit():
         allTestSuites = []
@@ -58,7 +58,7 @@ if __name__ == '__main__':
 
 
     #close result file
-    fp = report.CreateReprt()
+    fp = report.createReprt()
     runner=HTMLTestRunner.HTMLTestRunner(stream=fp,title='自动化测试例结果',description=u'测试用例执行情况')
     runner.run(allSuit())
     fp.close()

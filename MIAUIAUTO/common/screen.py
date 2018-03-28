@@ -10,7 +10,8 @@ from PIL import Image
 PATH = lambda p: os.path.abspath(p)
 TEMP_FILE = PATH(tempfile.gettempdir() + "/temp_screen.png")
 
-class Appium_Extend(object):
+
+class AppiumExtend(object):
     def __init__(self, driver):
         self.driver = driver
 

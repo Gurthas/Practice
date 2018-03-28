@@ -1,7 +1,7 @@
 #coding=utf-8
 import HTMLTestRunner,os,datetime,logging
 #from config import config
-def CreateReprt():
+def createReprt():
     filePath = "D:\\MIAUIAUTO\\report\\"
    # fp = open(filePath, 'wb')
     # 生成报告的Title,描述

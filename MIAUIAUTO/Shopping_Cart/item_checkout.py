@@ -13,7 +13,8 @@ from common import avd_check
 from common import screen
 from PIL import ImageGrab
 
-class itemCheckout(unittest.TestCase):
+
+class ItemCheckout(unittest.TestCase):
     def setUp(self):
         print("开始执行用例")
     def tearDown(self):
