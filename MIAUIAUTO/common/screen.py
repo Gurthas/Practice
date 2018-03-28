@@ -4,7 +4,7 @@ import os
 import platform
 import tempfile
 import shutil
-
+from functools import reduce
 from PIL import Image
 
 PATH = lambda p: os.path.abspath(p)
