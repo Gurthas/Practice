@@ -22,7 +22,7 @@ if __name__ == '__main__':
     width = x['width']
     height = x['height']
     print(width,height)
-    filePath = "D:\\MIAUIAUTO\\report\\"
+    filePath = "D:\\python workplace\\MIAUIAUTO\\report\\"
     filePaths=filePath+"测试截图"
     actions.mkdir(filePaths)
     filePaths1=os.path.abspath

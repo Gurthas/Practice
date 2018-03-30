@@ -66,9 +66,9 @@ class ItemCheckout(unittest.TestCase):
             if len(is_login):
                 is_login[0].click()
                 username=driver.find_elements_by_id("com.mia.miababy:id/et_context")
-                username[0].send_keys("13331123053")
+                username[0].send_keys("15011431186")
                 password=driver.find_elements_by_id("com.mia.miababy:id/et_context")
-                password[1].send_keys("gxd871002")
+                password[1].send_keys("111111")
                 actions.take_screenshot(driver)#截图
                 login_button=driver.find_elements_by_id("com.mia.miababy:id/btn_login")
                 login_button[0].click()

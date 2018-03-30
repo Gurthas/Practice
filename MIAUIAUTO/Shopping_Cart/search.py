@@ -13,7 +13,7 @@ class search(unittest.TestCase):
         pass
     def tearDown(self):
         pass
-    def seachcheck(self):
+    def searchcheck(self):
         sleep(5)
         elements_update  = driver.find_elements_by_id("update_title")
         elements_adv = driver.find_elements_by_id("adv_dialog")

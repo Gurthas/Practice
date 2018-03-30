@@ -16,7 +16,7 @@ class Logger(object):
 
         # 创建一个handler，用于写入日志文件
         rq = time.strftime('%Y%m%d%H%M', time.localtime(time.time()))
-        filePath = "D:\\MIAUIAUTO\\Logs\\"
+        filePath = "D:\\python workplace\\MIAUIAUTO\\Logs\\"
         #log_path = os.path.dirname(os.getcwd()) + '/Logs/'
         log_name = filePath + rq + '.log'
         fh = logging.FileHandler(log_name)
