@@ -13,8 +13,8 @@ class Singlelinklist(object):
         return self.__head == None
 
     def length(self):
-        cur = self.__haed
+        cur = self.__head
         count = 0
-        while cur is not None:
+        while cur != None:
             count += 1
         return count
